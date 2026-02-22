@@ -1,0 +1,46 @@
+<div class="sidebar-right__inner">
+
+    <!-- Infographies & guides visuels -->
+    <div class="sidebar-right__section">
+        <h3 class="sidebar-right__title">Infographies</h3>
+        <div class="sidebar-right__cards">
+            <a href="/padel/histoire/" class="sidebar-right__card">
+                <img src="/img/padel/padel-terrain-coucher-soleil.webp" alt="Histoire du Padel" class="sidebar-right__thumb" loading="lazy">
+                <span class="sidebar-right__label">L'Histoire du Padel en 10 dates</span>
+            </a>
+            {# Ajouter ici les futures infographies
+            <a href="/pickleball/histoire/" class="sidebar-right__card">
+                <img src="/img/pickleball/pickleball-terrain-aerien-vert.webp" alt="Histoire du Pickleball" class="sidebar-right__thumb" loading="lazy">
+                <span class="sidebar-right__label">L'essor du Pickleball en France</span>
+            </a>
+            #}
+        </div>
+    </div>
+
+    <!-- Guides populaires -->
+    <div class="sidebar-right__section">
+        <h3 class="sidebar-right__title">Guides essentiels</h3>
+        <div class="sidebar-right__cards">
+            {% set guideArticles = collections.articles | exclude(page.url) | limit(4) %}
+            {% for article in guideArticles %}
+            <a href="{{ article.url }}" class="sidebar-right__card">
+                {% if article.data.image %}
+                <img src="{{ article.data.image }}" alt="{{ article.data.title }}" class="sidebar-right__thumb" loading="lazy">
+                {% endif %}
+                <span class="sidebar-right__label">{{ article.data.title }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="sidebar-right__section sidebar-right__newsletter">
+        <h3 class="sidebar-right__title">Newsletter</h3>
+        <p class="sidebar-right__text">Les meilleurs articles padel & pickleball, chaque semaine.</p>
+        <form class="sidebar-right__form" action="#" method="POST" name="newsletter-sidebar">
+            <input type="email" name="email" class="sidebar-right__input" placeholder="votre@email.com" required>
+            <button type="submit" class="sidebar-right__button">S'abonner</button>
+        </form>
+    </div>
+
+</div>

@@ -1,0 +1,24 @@
+<article class="card reveal" data-category="{{ article.data.category | lower }}" data-tags="{% if article.data.tags %}{% for t in article.data.tags %}{% if t != 'articles' %}{{ t | lower }}{% if not loop.last %},{% endif %}{% endif %}{% endfor %}{% endif %}">
+    <a href="{{ article.url }}">
+        {% if article.data.image %}
+        <div class="card__image">
+            <img src="{{ article.data.image }}" alt="{{ article.data.title }}" loading="lazy">
+        </div>
+        {% endif %}
+        <div class="card__body">
+            <div class="card__meta">
+                {% if article.data.tags %}
+                    {% for t in article.data.tags %}
+                        {% if t != "articles" %}{% tag t %}{% endif %}
+                    {% endfor %}
+                {% endif %}
+                <span class="card__reading-time">{{ article.content | readingTime }}</span>
+            </div>
+            <h3 class="card__title">{{ article.data.title }}</h3>
+            {% if article.data.excerpt %}
+            <p class="card__excerpt">{{ article.data.excerpt }}</p>
+            {% endif %}
+            <span class="card__link">Lire l'article →</span>
+        </div>
+    </a>
+</article>

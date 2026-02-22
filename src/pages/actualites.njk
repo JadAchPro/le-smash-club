@@ -1,0 +1,59 @@
+---
+layout: layouts/base.njk
+title: "Actualités Padel & Pickleball"
+permalink: /actualites/
+seoDescription: "Toute l'actualité padel et pickleball en France et dans le monde. Tournois, classements, résultats et analyses par la rédaction CourtSide."
+---
+
+<div class="container">
+    <header class="category-header">
+        <h1 class="category-header__title">Actualités</h1>
+        <p class="category-header__count">Analyses, résultats et décryptages — par la rédaction CourtSide</p>
+    </header>
+
+    {# Filter tabs #}
+    {% set actuArticles = collections.articlesByCategory["Actualités"] %}
+    {% if actuArticles and actuArticles.length > 0 %}
+
+    {% set allTags = [] %}
+    {% for article in actuArticles %}
+        {% if article.data.tags %}
+            {% for t in article.data.tags %}
+                {% if t not in allTags and t != "articles" %}
+                    {% set allTags = (allTags.push(t), allTags) %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+
+    {% if allTags.length > 0 %}
+    <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        {% for t in allTags %}
+        <button class="filter-btn" data-filter="{{ t | lower }}">{{ t }}</button>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="cards-grid" id="filteredGrid">
+        {% for article in actuArticles %}
+            {% include "partials/card-article.njk" %}
+        {% endfor %}
+    </div>
+
+    {% else %}
+    {# Empty state — no actu articles yet #}
+    <div class="actu-empty">
+        <p class="actu-empty__text">La rédaction prépare ses premières analyses. Revenez bientôt !</p>
+        <p class="actu-empty__sub">En attendant, explorez nos guides complets :</p>
+        <div class="actu-empty__links">
+            <a href="/padel/guide-complet/" class="btn btn--outline">Guide Padel →</a>
+            <a href="/pickleball/guide-complet/" class="btn btn--outline">Guide Pickleball →</a>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<div class="container" style="padding-top: 16px; padding-bottom: 48px;">
+    {% include "partials/newsletter.njk" %}
+</div>

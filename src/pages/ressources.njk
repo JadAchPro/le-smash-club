@@ -1,0 +1,89 @@
+---
+layout: layouts/base.njk
+title: "Ressources — Quiz, outils et guides pratiques"
+permalink: /ressources/
+seoDescription: "Quiz de niveau, glossaires, comparatifs et outils pratiques pour les joueurs de padel et pickleball. Testez votre niveau et progressez."
+---
+
+<div class="container">
+    <header class="category-header">
+        <h1 class="category-header__title">Ressources</h1>
+        <p class="category-header__count">Quiz, outils et guides pratiques pour progresser</p>
+    </header>
+
+    {# Quiz section #}
+    <section class="resources-section reveal">
+        <h2 class="resources-section__title">Testez votre niveau</h2>
+        <p class="resources-section__desc">Évaluez votre classement FFT estimé grâce à nos quiz interactifs. Gratuit, rapide, résultat immédiat.</p>
+        <div class="resources-grid">
+            <a href="/padel/quiz-niveau/" class="resource-card resource-card--quiz">
+                <span class="resource-card__emoji">🎾</span>
+                <h3 class="resource-card__title">Quiz Niveau Padel</h3>
+                <p class="resource-card__desc">9 questions pour estimer votre classement FFT (P100 à P25000+)</p>
+                <span class="resource-card__cta">Faire le quiz →</span>
+            </a>
+            <a href="/pickleball/quiz-niveau/" class="resource-card resource-card--quiz">
+                <span class="resource-card__emoji">🎯</span>
+                <h3 class="resource-card__title">Quiz Niveau Pickleball</h3>
+                <p class="resource-card__desc">9 questions pour estimer votre niveau DUPR (1.0 à 5.0+)</p>
+                <span class="resource-card__cta">Faire le quiz →</span>
+            </a>
+        </div>
+    </section>
+
+    {# Guides piliers #}
+    <section class="resources-section reveal">
+        <h2 class="resources-section__title">Guides complets</h2>
+        <p class="resources-section__desc">Nos articles piliers couvrent chaque sport de A à Z : règles, techniques, équipement, budget et culture.</p>
+        <div class="resources-grid">
+            <a href="/padel/guide-complet/" class="resource-card">
+                <span class="resource-card__emoji">📖</span>
+                <h3 class="resource-card__title">Guide Complet du Padel</h3>
+                <p class="resource-card__desc">Tout savoir : histoire, règles, techniques, équipement, où jouer en France</p>
+                <span class="resource-card__cta">Lire le guide →</span>
+            </a>
+            <a href="/pickleball/guide-complet/" class="resource-card">
+                <span class="resource-card__emoji">📖</span>
+                <h3 class="resource-card__title">Guide Complet du Pickleball</h3>
+                <p class="resource-card__desc">De Bainbridge Island à la France : histoire, règles, technique, compétition</p>
+                <span class="resource-card__cta">Lire le guide →</span>
+            </a>
+        </div>
+    </section>
+
+    {# Comparatifs #}
+    <section class="resources-section reveal">
+        <h2 class="resources-section__title">Comparatifs</h2>
+        <div class="resources-grid">
+            <a href="/pickleball/pickleball-vs-padel/" class="resource-card">
+                <span class="resource-card__emoji">⚖️</span>
+                <h3 class="resource-card__title">Pickleball vs Padel</h3>
+                <p class="resource-card__desc">Terrain, règles, équipement, physique : toutes les différences expliquées</p>
+                <span class="resource-card__cta">Comparer →</span>
+            </a>
+        </div>
+    </section>
+
+    {# À venir #}
+    <section class="resources-section reveal">
+        <h2 class="resources-section__title">Bientôt disponible</h2>
+        <div class="resources-grid">
+            <div class="resource-card resource-card--coming">
+                <span class="resource-card__emoji">📍</span>
+                <h3 class="resource-card__title">Annuaire des clubs</h3>
+                <p class="resource-card__desc">Trouvez un club de padel ou pickleball près de chez vous</p>
+                <span class="resource-card__badge">Bientôt</span>
+            </div>
+            <div class="resource-card resource-card--coming">
+                <span class="resource-card__emoji">📚</span>
+                <h3 class="resource-card__title">Glossaire</h3>
+                <p class="resource-card__desc">Tous les termes du padel et du pickleball expliqués simplement</p>
+                <span class="resource-card__badge">Bientôt</span>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="container" style="padding-top: 16px; padding-bottom: 48px;">
+    {% include "partials/newsletter.njk" %}
+</div>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if title %}{{ title }} — {{ site.name }}{% else %}{{ site.name }} — {{ site.description }}{% endif %}</title>
+    <meta name="description" content="{{ seoDescription or description or excerpt or site.description }}">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ title or site.name }}">
+    <meta property="og:description" content="{{ seoDescription or description or excerpt or site.description }}">
+    <meta property="og:type" content="{% if layout == 'layouts/article.njk' %}article{% else %}website{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    {% if image %}<meta property="og:image" content="{{ site.url }}{{ image }}">{% endif %}
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="{% if image %}summary_large_image{% else %}summary{% endif %}">
+    <meta name="twitter:title" content="{{ title or site.name }}">
+    <meta name="twitter:description" content="{{ seoDescription or description or excerpt or site.description }}">
+    {% if image %}<meta name="twitter:image" content="{{ site.url }}{{ image }}">{% endif %}
+
+    <!-- RSS & Sitemap -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed.xml">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+    <!-- Fonts (self-hosted for performance) -->
+    <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Logo font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- JSON-LD: WebSite + SearchAction (sitelinks searchbox) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ site.name }}",
+        "url": "{{ site.url }}",
+        "description": "{{ site.description }}",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{{ site.url }}/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    {% block head %}{% endblock %}
+</head>
+<body>
+
+    {% include "partials/header.njk" %}
+
+    <main>
+        {{ content | safe }}
+    </main>
+
+    {% include "partials/footer.njk" %}
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <button class="search-overlay__close" id="searchClose" aria-label="Fermer">&times;</button>
+        <div class="search-overlay__inner">
+            <input type="text" class="search-overlay__input" placeholder="Rechercher un article..." autofocus>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+{% set featuredArticles = collections.featured %}
+{% set heroMain = featuredArticles[0] if featuredArticles.length > 0 else collections.articles[0] %}
+{% set heroSide1 = featuredArticles[1] if featuredArticles.length > 1 else collections.articles[1] %}
+{# Fallback: pick first non-hero article from the full collection #}
+{% if featuredArticles.length > 2 %}
+    {% set heroSide2 = featuredArticles[2] %}
+{% else %}
+    {% set heroSide2 = null %}
+    {% for art in collections.articles %}
+        {% if not heroSide2 and art.url !== heroMain.url and art.url !== heroSide1.url %}
+            {% set heroSide2 = art %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+{% if heroMain %}
+<section class="hero">
+    <div class="hero__grid">
+        <!-- Main hero article -->
+        <a href="{{ heroMain.url }}" class="hero__main">
+            {% if heroMain.data.image %}
+            <img src="{{ heroMain.data.image }}" alt="{{ heroMain.data.title }}" loading="eager">
+            {% endif %}
+            <div class="hero__content">
+                {% if heroMain.data.category %}{% tag heroMain.data.category %}{% endif %}
+                <div class="trending-badge"><span class="trending-badge__dot"></span> Trending Now</div>
+                <div class="hero__reading-time">⏱ {{ heroMain.content | readingTime }} de lecture</div>
+                <h2>{{ heroMain.data.title }}</h2>
+            </div>
+        </a>
+
+        <!-- Sidebar articles -->
+        <div class="hero__sidebar">
+            {% if heroSide1 %}
+            <a href="{{ heroSide1.url }}" class="hero__side-card">
+                {% if heroSide1.data.image %}
+                <img src="{{ heroSide1.data.image }}" alt="{{ heroSide1.data.title }}" loading="eager">
+                {% endif %}
+                <div class="hero__content">
+                    {% if heroSide1.data.category %}{% tag heroSide1.data.category %}{% endif %}
+                    <div class="hero__reading-time">⏱ {{ heroSide1.content | readingTime }}</div>
+                    <h3>{{ heroSide1.data.title }}</h3>
+                </div>
+            </a>
+            {% endif %}
+
+            {% if heroSide2 %}
+            <a href="{{ heroSide2.url }}" class="hero__side-card">
+                {% if heroSide2.data.image %}
+                <img src="{{ heroSide2.data.image }}" alt="{{ heroSide2.data.title }}" loading="eager">
+                {% endif %}
+                <div class="hero__content">
+                    {% if heroSide2.data.category %}{% tag heroSide2.data.category %}{% endif %}
+                    <div class="hero__reading-time">⏱ {{ heroSide2.content | readingTime }}</div>
+                    <h3>{{ heroSide2.data.title }}</h3>
+                </div>
+            </a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endif %}

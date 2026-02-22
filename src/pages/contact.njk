@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+title: "Contact"
+seoDescription: "Contactez la rédaction CourtSide pour vos questions, partenariats ou suggestions sur le padel et le pickleball."
+permalink: /contact/
+---
+
+<div class="container--narrow">
+    <header class="page-header">
+        <h1 class="page-header__title">Contact</h1>
+        <p class="page-header__subtitle">Une question, une suggestion, une idée d'article ? Écrivez-nous.</p>
+    </header>
+
+    <div class="page-body">
+        <form class="contact-form" name="contact" method="POST" data-netlify="true">
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Sujet</label>
+                <input type="text" id="subject" name="subject" placeholder="De quoi s'agit-il ?" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Votre message..." required></textarea>
+            </div>
+            <button type="submit" class="form-submit">Envoyer →</button>
+        </form>
+    </div>
+</div>

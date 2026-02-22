@@ -1,0 +1,46 @@
+{# Quiz CTA — Reusable component
+   Usage: {% set quizSport = "padel" %} {% include "partials/quiz-cta.njk" %}
+   Or without quizSport for generic (shows both) #}
+
+{% if quizSport == "padel" %}
+<div class="quiz-cta reveal">
+    <div class="quiz-cta__inner">
+        <div class="quiz-cta__text">
+            <span class="quiz-cta__label">Quiz interactif</span>
+            <h3 class="quiz-cta__title">Quel est votre niveau de padel ?</h3>
+            <p class="quiz-cta__desc">9 questions pour estimer votre classement FFT — de P100 à P25000+. Gratuit, 3 minutes, résultat immédiat.</p>
+        </div>
+        <a href="/padel/quiz-niveau/" class="btn btn--primary quiz-cta__btn">Faire le test →</a>
+    </div>
+</div>
+
+{% elif quizSport == "pickleball" %}
+<div class="quiz-cta reveal">
+    <div class="quiz-cta__inner">
+        <div class="quiz-cta__text">
+            <span class="quiz-cta__label">Quiz interactif</span>
+            <h3 class="quiz-cta__title">Quel est votre niveau de pickleball ?</h3>
+            <p class="quiz-cta__desc">9 questions pour estimer votre rating DUPR — de 2.0 à 5.5+. Gratuit, 3 minutes, résultat immédiat.</p>
+        </div>
+        <a href="/pickleball/quiz-niveau/" class="btn btn--primary quiz-cta__btn">Faire le test →</a>
+    </div>
+</div>
+
+{% else %}
+{# Generic — show both quizzes side by side #}
+<div class="quiz-cta-duo reveal">
+    <h3 class="quiz-cta-duo__title">Testez votre niveau</h3>
+    <div class="quiz-cta-duo__grid">
+        <a href="/padel/quiz-niveau/" class="quiz-cta-duo__card">
+            <span class="quiz-cta-duo__emoji">🎾</span>
+            <span class="quiz-cta-duo__sport">Quiz Padel</span>
+            <span class="quiz-cta-duo__sub">Niveau FFT — 3 min</span>
+        </a>
+        <a href="/pickleball/quiz-niveau/" class="quiz-cta-duo__card">
+            <span class="quiz-cta-duo__emoji">🏓</span>
+            <span class="quiz-cta-duo__sport">Quiz Pickleball</span>
+            <span class="quiz-cta-duo__sub">Rating DUPR — 3 min</span>
+        </a>
+    </div>
+</div>
+{% endif %}

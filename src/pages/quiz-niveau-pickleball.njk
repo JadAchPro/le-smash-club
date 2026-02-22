@@ -1,0 +1,164 @@
+---
+layout: layouts/base.njk
+title: "Quel est mon niveau de pickleball ? Quiz DUPR gratuit"
+seoDescription: "Faites le test en 9 questions et découvrez votre niveau DUPR au pickleball : de 2.0 débutant à 5.5+ élite. Résultat immédiat et gratuit."
+permalink: /pickleball/quiz-niveau/
+---
+
+<!-- Quiz Hero -->
+<section class="quiz-hero">
+    <div class="container--narrow">
+        <span class="quiz-hero__label">Quiz Pickleball DUPR</span>
+        <h1 class="quiz-hero__title">Quel est votre <span>niveau de pickleball</span> ?</h1>
+        <p class="quiz-hero__subtitle">9 questions pour estimer votre rating DUPR — de 2.0 à 5.5+.</p>
+        <div class="quiz-hero__meta">
+            <span>Gratuit</span>
+            <span aria-hidden="true">&middot;</span>
+            <span>~3 minutes</span>
+            <span aria-hidden="true">&middot;</span>
+            <span>Résultat immédiat</span>
+        </div>
+    </div>
+</section>
+
+<!-- Quiz Engine -->
+<section class="quiz-section">
+    <div class="container--narrow">
+
+        <!-- Progress bar (hidden until quiz starts) -->
+        <div class="quiz-progress" id="quizProgress" hidden>
+            <div class="quiz-progress__bar">
+                <div class="quiz-progress__fill" id="quizProgressFill"></div>
+            </div>
+            <span class="quiz-progress__label" id="quizProgressLabel">Question 1 / 9</span>
+        </div>
+
+        <!-- Question area -->
+        <div class="quiz-card" id="quizCard" role="region" aria-live="polite" aria-label="Question du quiz">
+            <div class="quiz-start" id="quizStart">
+                <div class="quiz-start__icon">🏓</div>
+                <h2 class="quiz-start__title">Prêt à découvrir votre rating ?</h2>
+                <p class="quiz-start__text">Répondez honnêtement à chaque question. Le quiz évalue votre technique, votre tactique et votre expérience pour estimer votre niveau DUPR.</p>
+                <button class="btn btn--primary" id="quizStartBtn">Commencer le test →</button>
+            </div>
+        </div>
+
+        <!-- Results area (hidden until quiz done) -->
+        <div class="quiz-results" id="quizResults" hidden>
+            <div class="quiz-results__badge" id="quizResultsBadge"></div>
+            <div class="quiz-results__level" id="quizResultsLevel"></div>
+            <h2 class="quiz-results__title" id="quizResultsTitle"></h2>
+            <p class="quiz-results__desc" id="quizResultsDesc"></p>
+            <div class="quiz-results__columns">
+                <div class="quiz-results__column quiz-results__column--strengths">
+                    <h3>Vos points forts</h3>
+                    <ul id="quizResultsStrengths"></ul>
+                </div>
+                <div class="quiz-results__column quiz-results__column--improve">
+                    <h3>Axes de progression</h3>
+                    <ul id="quizResultsImprove"></ul>
+                </div>
+            </div>
+            <div class="quiz-results__cta">
+                <button class="btn btn--outline" id="quizRestartBtn">Refaire le test</button>
+                <a href="/pickleball/" class="btn btn--primary">Explorer nos guides pickleball →</a>
+            </div>
+        </div>
+
+        <!-- Newsletter CTA (appears below results) -->
+        <div class="quiz-newsletter" id="quizNewsletter" hidden>
+            <p class="quiz-newsletter__intro">Recevez des conseils adaptés à votre niveau directement dans votre boîte mail.</p>
+            {% include "partials/newsletter.njk" %}
+        </div>
+
+    </div>
+</section>
+
+<!-- FAQ Section (SEO) -->
+<section class="quiz-faq">
+    <div class="container--narrow">
+        <h2 class="quiz-faq__title">Questions fréquentes sur les niveaux de pickleball</h2>
+        <div class="quiz-faq__list">
+
+            <details class="quiz-faq__item">
+                <summary class="quiz-faq__question">Qu'est-ce que le DUPR au pickleball ?</summary>
+                <p class="quiz-faq__answer">Le DUPR (Dynamic Universal Pickleball Rating) est le système de classement mondial du pickleball. Il va de 2.0 (débutant) à 8.0 (professionnel). Votre score DUPR évolue en fonction de vos résultats en matchs et en tournois. C'est le standard utilisé par les circuits PPA et MLP.</p>
+            </details>
+
+            <details class="quiz-faq__item">
+                <summary class="quiz-faq__question">Ce quiz donne-t-il un vrai rating DUPR ?</summary>
+                <p class="quiz-faq__answer">Non. Ce quiz est un outil d'auto-évaluation basé sur votre technique, votre tactique et votre expérience de match. Il vous donne une estimation indicative. Pour obtenir un vrai rating DUPR, inscrivez-vous sur dupr.com et participez à des matchs enregistrés.</p>
+            </details>
+
+            <details class="quiz-faq__item">
+                <summary class="quiz-faq__question">Comment progresser au pickleball ?</summary>
+                <p class="quiz-faq__answer">La clé : jouez régulièrement (2 à 3 fois par semaine minimum), travaillez votre jeu à la kitchen (dinks, patience), et participez à des tournois de votre niveau. Le 3ème coup (drop shot) est souvent le déclic qui fait passer du niveau intermédiaire à avancé.</p>
+            </details>
+
+            <details class="quiz-faq__item">
+                <summary class="quiz-faq__question">Existe-t-il un classement officiel de pickleball en France ?</summary>
+                <p class="quiz-faq__answer">La France a mis en place un classement officiel de pickleball fin 2024, géré par la Fédération. Le DUPR reste cependant le standard international le plus utilisé par les joueurs et les clubs pour évaluer le niveau.</p>
+            </details>
+
+            <details class="quiz-faq__item">
+                <summary class="quiz-faq__question">À partir de quel niveau peut-on participer à des tournois de pickleball ?</summary>
+                <p class="quiz-faq__answer">Dès DUPR 2.5-3.0, vous pouvez participer à des tournois catégorie débutants. La plupart des clubs et associations organisent des tournois internes ouverts à tous. Les compétitions régionales commencent autour de DUPR 3.5.</p>
+            </details>
+
+        </div>
+    </div>
+</section>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Quiz",
+            "name": "Quel est mon niveau de pickleball ?",
+            "description": "{{ seoDescription }}",
+            "url": "{{ site.url }}/pickleball/quiz-niveau/",
+            "author": {
+                "@type": "Organization",
+                "name": "{{ site.name }}"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Pickleball"
+            }
+        },
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Qu'est-ce que le DUPR au pickleball ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Le DUPR (Dynamic Universal Pickleball Rating) est le système de classement mondial du pickleball, allant de 2.0 (débutant) à 8.0 (professionnel). Il évolue en fonction de vos résultats en matchs et en tournois."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Ce quiz donne-t-il un vrai rating DUPR ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Non, c'est un outil d'auto-évaluation indicatif. Pour un vrai DUPR, inscrivez-vous sur dupr.com et participez à des matchs enregistrés."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Comment progresser au pickleball ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Jouez 2-3 fois/semaine, travaillez le jeu à la kitchen (dinks, patience), et participez à des tournois. Le 3ème coup est souvent le déclic du niveau intermédiaire à avancé."
+                    }
+                }
+            ]
+        }
+    ]
+}
+</script>
+
+<script src="/js/quiz-pickleball.js" defer></script>

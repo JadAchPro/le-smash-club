@@ -1,0 +1,58 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "src/img/uploads"
+public_folder: "/img/uploads"
+
+locale: "fr"
+
+collections:
+  - name: "articles"
+    label: "Articles"
+    folder: "src/articles"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Sous-titre", name: "subtitle", widget: "string", required: false }
+      - { label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "Dernière mise à jour", name: "lastmod", widget: "datetime", format: "YYYY-MM-DD", required: false, hint: "Remplir uniquement si l'article a été mis à jour après publication." }
+      - label: "Sport"
+        name: "sport"
+        widget: "select"
+        hint: "Détermine le sous-répertoire URL (/padel/..., /pickleball/..., /tennis/...)"
+        options:
+          - "Padel"
+          - "Pickleball"
+          - "Tennis"
+      - label: "Catégorie"
+        name: "category"
+        widget: "select"
+        options:
+          - "Pickleball"
+          - "Padel"
+          - "Tennis"
+          - "Conseils"
+          - "Équipement"
+          - "Nutrition"
+          - "Tournois"
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+      - { label: "Image de couverture", name: "image", widget: "image", required: false }
+      - { label: "Slug (URL courte)", name: "slug", widget: "string", required: false, hint: "Ex: guide-pickleball. Si vide, généré depuis le titre." }
+      - { label: "Description SEO", name: "seoDescription", widget: "text", required: false, hint: "Meta description pour Google (150-160 car.). Si vide, l'extrait est utilisé." }
+      - { label: "Extrait", name: "excerpt", widget: "text", required: false }
+      - { label: "Article à la une", name: "featured", widget: "boolean", default: false }
+      - { label: "Contenu", name: "body", widget: "markdown" }
+      - label: "FAQ (rich snippets Google)"
+        name: "faq"
+        widget: "list"
+        required: false
+        hint: "Questions/réponses affichées comme rich snippets dans Google"
+        fields:
+          - { label: "Question", name: "question", widget: "string" }
+          - { label: "Réponse", name: "answer", widget: "text" }

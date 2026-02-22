@@ -1,0 +1,57 @@
+---
+layout: layouts/base.njk
+title: ""
+seoDescription: "CourtSide, le magazine en ligne du padel et du pickleball en France. Guides, règles, techniques, actualités et quiz pour débuter et progresser."
+permalink: /
+---
+
+{# Hero section — 3 featured articles + compact news widget #}
+<div class="container hero-with-news">
+    <div class="hero-with-news__main">
+        {% include "partials/hero.njk" %}
+    </div>
+    <aside class="news-widget" aria-label="Fil d'actualité">
+        <div class="news-widget__header">
+            <span class="news-widget__dot"></span>
+            <h2 class="news-widget__title">Fil d'actu</h2>
+        </div>
+        <div class="news-widget__list" id="newsWidget">
+            <div class="news-feed__loading">
+                <div class="news-feed__spinner"></div>
+            </div>
+        </div>
+        <a href="/actualites/" class="news-widget__more">Toutes les actualités →</a>
+    </aside>
+</div>
+
+<hr class="divider" style="max-width: var(--max-width); margin: 0 auto;">
+
+{# Recent articles — exclude hero articles to avoid duplicates #}
+{% set recentArticles = collections.articles | exclude(heroMain.url if heroMain) | exclude(heroSide1.url if heroSide1) | exclude(heroSide2.url if heroSide2) | limit(6) %}
+{% if recentArticles.length > 0 %}
+<section class="section container">
+    <div class="section__header reveal">
+        <h2 class="section__title">Articles récents</h2>
+    </div>
+    <div class="cards-grid">
+        {% for article in recentArticles %}
+            {% include "partials/card-article.njk" %}
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
+{# Quiz CTA — both sports #}
+<div class="container">
+    {% include "partials/quiz-cta.njk" %}
+</div>
+
+{# Newsletter CTA #}
+<div class="container" style="padding-bottom: 48px;">
+    {% include "partials/newsletter.njk" %}
+</div>
+
+{# Popular articles + sidebar #}
+{% include "partials/popular.njk" %}
+
+<script src="/js/news-feed.js" defer></script>

@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="container">
+    <header class="category-header">
+        <h1 class="category-header__title">
+            {{ categoryEmoji }} {{ categoryName }}
+        </h1>
+        {% set catArticles = collections.articlesByCategory[categorySlug] %}
+        <p class="category-header__count">{{ catArticles.length if catArticles else 0 }} article{{ "s" if catArticles and catArticles.length > 1 }}</p>
+    </header>
+
+    {# Collect all unique tags from articles in this category #}
+    {% if catArticles and catArticles.length > 0 %}
+    {% set allTags = [] %}
+    {% for article in catArticles %}
+        {% if article.data.tags %}
+            {% for t in article.data.tags %}
+                {% if t not in allTags and t != "articles" %}
+                    {% set allTags = (allTags.push(t), allTags) %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+
+    {% if allTags.length > 0 %}
+    <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        {% for t in allTags %}
+        <button class="filter-btn" data-filter="{{ t | lower }}">{{ t }}</button>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="cards-grid" id="filteredGrid">
+        {% for article in catArticles %}
+            {% include "partials/card-article.njk" %}
+        {% endfor %}
+    </div>
+    {% else %}
+    <p style="color: var(--text-light); padding: 48px 0;">Aucun article dans cette catégorie pour le moment.</p>
+    {% endif %}
+</div>
+
+{# Quiz CTA — sport-specific #}
+{% set quizSport = categorySlug | lower %}
+{% if quizSport == "padel" or quizSport == "pickleball" %}
+<div class="container">
+    {% include "partials/quiz-cta.njk" %}
+</div>
+{% endif %}
+
+<div class="container" style="padding-top: 16px; padding-bottom: 48px;">
+    {% include "partials/newsletter.njk" %}
+</div>

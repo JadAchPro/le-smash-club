@@ -1,0 +1,164 @@
+---
+layout: layouts/base.njk
+title: "Quel est mon niveau de padel ? Quiz FFT gratuit"
+seoDescription: "Faites le test en 9 questions et découvrez votre niveau FFT au padel : de P100 débutant à P25000 élite. Résultat immédiat et gratuit."
+permalink: /padel/quiz-niveau/
+---
+
+<!-- Quiz Hero -->
+<section class="quiz-hero">
+    <div class="container--narrow">
+        <span class="quiz-hero__label">Quiz Padel FFT</span>
+        <h1 class="quiz-hero__title">Quel est votre <span>niveau de padel</span> ?</h1>
+        <p class="quiz-hero__subtitle">9 questions pour estimer votre classement FFT — de P100 à P25000+.</p>
+        <div class="quiz-hero__meta">
+            <span>Gratuit</span>
+            <span aria-hidden="true">&middot;</span>
+            <span>~3 minutes</span>
+            <span aria-hidden="true">&middot;</span>
+            <span>Résultat immédiat</span>
+        </div>
+    </div>
+</section>
+
+<!-- Quiz Engine -->
+<section class="quiz-section">
+    <div class="container--narrow">
+
+        <!-- Progress bar (hidden until quiz starts) -->
+        <div class="quiz-progress" id="quizProgress" hidden>
+            <div class="quiz-progress__bar">
+                <div class="quiz-progress__fill" id="quizProgressFill"></div>
+            </div>
+            <span class="quiz-progress__label" id="quizProgressLabel">Question 1 / 9</span>
+        </div>
+
+        <!-- Question area -->
+        <div class="quiz-card" id="quizCard" role="region" aria-live="polite" aria-label="Question du quiz">
+            <div class="quiz-start" id="quizStart">
+                <div class="quiz-start__icon">🎾</div>
+                <h2 class="quiz-start__title">Prêt à découvrir votre niveau ?</h2>
+                <p class="quiz-start__text">Répondez honnêtement à chaque question. Le quiz évalue votre technique, votre tactique et votre expérience de match pour estimer votre niveau FFT.</p>
+                <button class="btn btn--primary" id="quizStartBtn">Commencer le test →</button>
+            </div>
+        </div>
+
+        <!-- Results area (hidden until quiz done) -->
+        <div class="quiz-results" id="quizResults" hidden>
+            <div class="quiz-results__badge" id="quizResultsBadge"></div>
+            <div class="quiz-results__level" id="quizResultsLevel"></div>
+            <h2 class="quiz-results__title" id="quizResultsTitle"></h2>
+            <p class="quiz-results__desc" id="quizResultsDesc"></p>
+            <div class="quiz-results__columns">
+                <div class="quiz-results__column quiz-results__column--strengths">
+                    <h3>Vos points forts</h3>
+                    <ul id="quizResultsStrengths"></ul>
+                </div>
+                <div class="quiz-results__column quiz-results__column--improve">
+                    <h3>Axes de progression</h3>
+                    <ul id="quizResultsImprove"></ul>
+                </div>
+            </div>
+            <div class="quiz-results__cta">
+                <button class="btn btn--outline" id="quizRestartBtn">Refaire le test</button>
+                <a href="/padel/" class="btn btn--primary">Explorer nos guides padel →</a>
+            </div>
+        </div>
+
+        <!-- Newsletter CTA (appears below results) -->
+        <div class="quiz-newsletter" id="quizNewsletter" hidden>
+            <p class="quiz-newsletter__intro">Recevez des conseils adaptés à votre niveau directement dans votre boîte mail.</p>
+            {% include "partials/newsletter.njk" %}
+        </div>
+
+    </div>
+</section>
+
+<!-- FAQ Section (SEO) -->
+<section class="quiz-faq">
+    <div class="container--narrow">
+        <h2 class="quiz-faq__title">Questions fréquentes sur les niveaux de padel</h2>
+        <div class="quiz-faq__list">
+
+            <details class="quiz-faq__item">
+                <summary class="quiz-faq__question">Qu'est-ce que le classement FFT en padel ?</summary>
+                <p class="quiz-faq__answer">La Fédération Française de Tennis (FFT) gère le padel en France et attribue des classements officiels de P100 (débutant) à P25000+ (élite nationale). Ces classements sont basés sur vos résultats en tournois FFT homologués. L'échelle compte 8 niveaux depuis 2025.</p>
+            </details>
+
+            <details class="quiz-faq__item">
+                <summary class="quiz-faq__question">Ce quiz donne-t-il un classement FFT officiel ?</summary>
+                <p class="quiz-faq__answer">Non. Ce quiz est un outil d'auto-évaluation basé sur votre technique, votre tactique et votre expérience de match. Il vous donne une estimation indicative de votre niveau. Seuls les résultats en tournois FFT officiels déterminent votre vrai classement.</p>
+            </details>
+
+            <details class="quiz-faq__item">
+                <summary class="quiz-faq__question">Comment progresser d'un niveau à l'autre au padel ?</summary>
+                <p class="quiz-faq__answer">Pour progresser, combinez pratique régulière (2 à 3 fois par semaine), cours collectifs ou particuliers, et participation aux tournois FFT de votre niveau. Chaque victoire en tournoi fait évoluer votre classement. Pour les débutants, la régularité est le facteur de progression numéro un.</p>
+            </details>
+
+            <details class="quiz-faq__item">
+                <summary class="quiz-faq__question">Quelle est la différence entre le classement padel et le classement tennis ?</summary>
+                <p class="quiz-faq__answer">En tennis, la FFT utilise un système de chiffres (5/6, 4/6, 30/1, etc.). En padel, la nomenclature va de P100 à P25000. Un joueur de tennis classé peut atteindre un bon niveau en padel grâce à sa maîtrise de la balle, mais devra apprendre la gestion des vitres et le jeu en double.</p>
+            </details>
+
+            <details class="quiz-faq__item">
+                <summary class="quiz-faq__question">À partir de quel niveau peut-on participer à des tournois de padel ?</summary>
+                <p class="quiz-faq__answer">Dès le niveau P100 (débutant), vous pouvez vous inscrire à des tournois FFT catégorie débutants. La plupart des clubs organisent aussi des tournois internes ouverts à tous les niveaux. Les circuits régionaux commencent autour de P500 à P1000.</p>
+            </details>
+
+        </div>
+    </div>
+</section>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Quiz",
+            "name": "Quel est mon niveau de padel ?",
+            "description": "{{ seoDescription }}",
+            "url": "{{ site.url }}/padel/quiz-niveau/",
+            "author": {
+                "@type": "Organization",
+                "name": "{{ site.name }}"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Padel"
+            }
+        },
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Qu'est-ce que le classement FFT en padel ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "La FFT gère le padel en France et attribue des classements officiels de P100 (débutant) à P25000+ (élite nationale). Ces classements sont basés sur vos résultats en tournois FFT. L'échelle compte 8 niveaux depuis 2025."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Ce quiz donne-t-il un classement FFT officiel ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Non, c'est un outil d'auto-évaluation indicatif basé sur votre technique, tactique et expérience. Seuls les tournois FFT officiels déterminent votre vrai classement."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Comment progresser d'un niveau à l'autre au padel ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Combinez pratique régulière (2-3 fois/semaine), cours, et participation aux tournois FFT de votre niveau. Chaque victoire fait évoluer votre classement."
+                    }
+                }
+            ]
+        }
+    ]
+}
+</script>
+
+<script src="/js/quiz.js" defer></script>

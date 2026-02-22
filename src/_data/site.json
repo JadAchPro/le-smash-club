@@ -1,0 +1,22 @@
+{
+  "name": "CourtSide",
+  "description": "Le magazine en ligne dédié au pickleball et au padel. Actualités, conseils, équipement et plus.",
+  "url": "https://courtside.fr",
+  "language": "fr",
+  "author": "CourtSide",
+  "categories": [
+    { "name": "Padel", "slug": "padel", "emoji": "🎾", "color": "#F1C40F" },
+    { "name": "Pickleball", "slug": "pickleball", "emoji": "🎯", "color": "#2ECC71" },
+    { "name": "Actualités", "slug": "actualites", "emoji": "📰", "color": "#CB6030" },
+    { "name": "Ressources", "slug": "ressources", "emoji": "🧰", "color": "#334D6E" }
+  ],
+  "rssFeeds": {
+    "padel": "https://news.google.com/rss/search?q=padel+france&hl=fr&gl=FR&ceid=FR:fr",
+    "pickleball": "https://news.google.com/rss/search?q=pickleball+france&hl=fr&gl=FR&ceid=FR:fr"
+  },
+  "social": {
+    "twitter": "",
+    "instagram": "",
+    "youtube": ""
+  }
+}

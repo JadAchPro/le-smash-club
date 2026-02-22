@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+permalink: /404.html
+title: "Page introuvable"
+eleventyExcludeFromCollections: true
+---
+
+<div class="container--narrow" style="padding: 80px 24px; text-align: center;">
+    <p style="font-size: 6rem; margin-bottom: 0; line-height: 1;">404</p>
+    <h1 class="page-header__title" style="margin-bottom: 12px;">Hors terrain !</h1>
+    <p style="font-size: 1.15rem; color: var(--text-light); margin-bottom: 40px; max-width: 500px; margin-left: auto; margin-right: auto;">
+        La page que vous cherchez n'existe pas ou a été déplacée. Pas de panique, retournez sur le court.
+    </p>
+    <a href="/" class="header__subscribe-btn" style="display: inline-block; padding: 14px 32px; font-size: 1rem; text-decoration: none;">
+        Retour à l'accueil
+    </a>
+
+    {% set latestArticles = collections.articles | limit(3) %}
+    {% if latestArticles.length > 0 %}
+    <section style="margin-top: 64px; text-align: left;">
+        <div class="section__header">
+            <h2 class="section__title">Articles populaires</h2>
+        </div>
+        <div class="cards-grid">
+            {% for article in latestArticles %}
+                {% include "partials/card-article.njk" %}
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+</div>

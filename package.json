@@ -1,0 +1,23 @@
+{
+  "name": "courtside",
+  "version": "1.0.0",
+  "description": "CourtSide — Magazine Pickleball & Padel",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "clean": "rm -rf _site"
+  },
+  "keywords": [
+    "pickleball",
+    "padel",
+    "magazine",
+    "sports"
+  ],
+  "author": "CourtSide",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "html-minifier-terser": "^7.2.0"
+  }
+}

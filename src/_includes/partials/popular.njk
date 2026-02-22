@@ -1,0 +1,37 @@
+{% set popularArticles = collections.articles | limit(5) %}
+
+{% if popularArticles.length > 0 %}
+<section class="section container reveal">
+    <div class="section__header">
+        <h2 class="section__title">Les plus lus</h2>
+    </div>
+    <div class="popular__grid">
+        <ul>
+            {% for article in popularArticles %}
+            <li class="popular__item">
+                <a href="{{ article.url }}" style="display:flex; align-items:flex-start; gap:20px; width:100%;">
+                    <span class="popular__number">{{ "0" if loop.index < 10 }}{{ loop.index }}</span>
+                    <div class="popular__info">
+                        {% if article.data.category %}
+                            {% tag article.data.category %}
+                        {% endif %}
+                        <h4>{{ article.data.title }}</h4>
+                        <span class="popular__meta">{{ article.content | readingTime }} de lecture</span>
+                    </div>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <div>
+            <div class="sidebar-box">
+                <h3 class="sidebar-box__title">🏷️ Catégories</h3>
+                <div class="sidebar-tags">
+                    {% for cat in site.categories %}
+                    <a href="/{{ cat.slug }}/" class="tag tag--{{ cat.slug }}">{{ cat.name }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
