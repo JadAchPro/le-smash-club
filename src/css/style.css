@@ -2928,14 +2928,16 @@ input, textarea { font-family: inherit; }
 .news-widget .news-item__title {
     font-size: 0.82rem;
     line-height: 1.35;
-    -webkit-line-clamp: 2;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 
 .news-widget .news-item__meta { margin-bottom: 4px; }
-.news-widget .news-item__source { display: none; }
+.news-widget .news-item__source {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: var(--text-light);
+    margin-top: 2px;
+}
 
 .news-widget__more {
     display: block;
@@ -3061,7 +3063,7 @@ input, textarea { font-family: inherit; }
     border-bottom: 1px solid var(--border);
     transition: var(--transition);
 }
-.news-item:hover { background: var(--bg-alt); padding-left: 12px; padding-right: 12px; border-radius: var(--radius-sm); }
+.news-item:hover { background: var(--bg-alt); border-radius: var(--radius-sm); }
 .news-item:last-child { border-bottom: none; }
 
 .news-item__meta {

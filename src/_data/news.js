@@ -15,11 +15,17 @@ module.exports = async function () {
     try {
       const feed = await parser.parseURL(url);
       for (const item of feed.items) {
+        // Google News titles are "Article Title - Source Name"
+        const rawTitle = item.title || '';
+        const lastDash = rawTitle.lastIndexOf(' - ');
+        const title = lastDash > 0 ? rawTitle.substring(0, lastDash) : rawTitle;
+        const source = lastDash > 0 ? rawTitle.substring(lastDash + 3) : '';
+
         allItems.push({
-          title: item.title || '',
+          title,
           link: item.link || '',
           date: item.isoDate || item.pubDate || new Date().toISOString(),
-          source: item.creator || item['dc:creator'] || '',
+          source,
           sport: sport
         });
       }

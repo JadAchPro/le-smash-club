@@ -18,7 +18,7 @@ permalink: /
         <div class="news-widget__list">
             {% if news and news.length > 0 %}
                 {% for item in news | limit(10) %}
-                <a href="{{ item.link }}" class="news-item" target="_blank" rel="noopener">
+                <div class="news-item">
                     <div class="news-item__meta">
                         <span class="news-item__tag news-item__tag--{{ item.sport }}">{{ 'Padel' if item.sport == 'padel' else 'Pickleball' }}</span>
                         <time class="news-item__time">{{ item.date | timeAgo }}</time>
@@ -27,7 +27,7 @@ permalink: /
                     {% if item.source %}
                     <span class="news-item__source">{{ item.source }}</span>
                     {% endif %}
-                </a>
+                </div>
                 {% endfor %}
             {% else %}
                 <div class="news-feed__empty"><p>Aucune actualité disponible.</p></div>
