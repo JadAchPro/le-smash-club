@@ -15,10 +15,23 @@ permalink: /
             <span class="news-widget__dot"></span>
             <h2 class="news-widget__title">Fil d'actu</h2>
         </div>
-        <div class="news-widget__list" id="newsWidget">
-            <div class="news-feed__loading">
-                <div class="news-feed__spinner"></div>
-            </div>
+        <div class="news-widget__list">
+            {% if news and news.length > 0 %}
+                {% for item in news | limit(10) %}
+                <a href="{{ item.link }}" class="news-item" target="_blank" rel="noopener">
+                    <div class="news-item__meta">
+                        <span class="news-item__tag news-item__tag--{{ item.sport }}">{{ 'Padel' if item.sport == 'padel' else 'Pickleball' }}</span>
+                        <time class="news-item__time">{{ item.date | timeAgo }}</time>
+                    </div>
+                    <h3 class="news-item__title">{{ item.title }}</h3>
+                    {% if item.source %}
+                    <span class="news-item__source">{{ item.source }}</span>
+                    {% endif %}
+                </a>
+                {% endfor %}
+            {% else %}
+                <div class="news-feed__empty"><p>Aucune actualité disponible.</p></div>
+            {% endif %}
         </div>
         <a href="/actualites/" class="news-widget__more">Toutes les actualités →</a>
     </aside>
@@ -53,5 +66,3 @@ permalink: /
 
 {# Popular articles + sidebar #}
 {% include "partials/popular.njk" %}
-
-<script src="/js/news-feed.js" defer></script>

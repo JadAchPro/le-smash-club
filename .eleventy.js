@@ -84,6 +84,18 @@ module.exports = function(eleventyConfig) {
     );
   });
 
+  // Filter: relative time in French (for news items)
+  eleventyConfig.addFilter("timeAgo", function(dateStr) {
+    const now = new Date();
+    const date = new Date(dateStr);
+    const diff = Math.floor((now - date) / 1000);
+    if (diff < 60) return "à l'instant";
+    if (diff < 3600) return `il y a ${Math.floor(diff / 60)} min`;
+    if (diff < 86400) return `il y a ${Math.floor(diff / 3600)}h`;
+    if (diff < 172800) return "hier";
+    return `il y a ${Math.floor(diff / 86400)}j`;
+  });
+
   // Filter: slugify (for breadcrumb category links)
   eleventyConfig.addFilter("slugify", function(str) {
     if (!str) return "";
