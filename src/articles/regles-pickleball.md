@@ -1,235 +1,267 @@
 ---
 title: "Règles du pickleball : tout comprendre en 5 minutes"
-seoDescription: "Apprenez les règles du pickleball en 5 minutes : service, comptage, double-bounce, zone de non-volée. Guide complet pour jouer votre premier match."
-date: 2026-02-23
+subtitle: "Service, score, kitchen, fautes — le guide clair pour jouer votre premier match"
+date: 2026-02-21
+sport: "Pickleball"
 category: "Pickleball"
-tags: ["Guides", "Regles"]
-image: "/img/pickleball/terrain-pickleball-regles.webp"
-excerpt: "Vous découvrez le pickleball et les règles vous semblent floues ? Ce guide vous explique tout en 5 minutes."
+tags:
+  - Règles
+slug: "regles-pickleball"
+image: "/img/pickleball/pickleball-joueur-frappe-tournoi.webp"
+seoDescription: "Toutes les règles du pickleball expliquées simplement : terrain, service, score, zone de non-volée (kitchen), règle des 2 rebonds. Guide complet 2026 pour débutants."
+excerpt: "Le pickleball a des règles simples, mais quelques subtilités changent tout. Ce guide vous explique le service, le score, la kitchen et les fautes — en 5 minutes."
+featured: true
+faq:
+  - question: "Peut-on jouer au pickleball en simple (à 2) ?"
+    answer: "Oui, le pickleball se joue en simple et en double. En simple, chaque joueur sert depuis la droite quand son score est pair, depuis la gauche quand il est impair. Le terrain reste le même, ce qui demande plus de déplacements qu'en double."
+  - question: "Combien de points faut-il pour gagner au pickleball ?"
+    answer: "Un match se joue en 11 points avec 2 points d'écart (scoring traditionnel). En compétition, certains formats vont à 15 ou 21 points. Le rally scoring (chaque échange rapporte un point, quel que soit le serveur) se développe dans les tournois professionnels."
+  - question: "Qu'est-ce que la kitchen au pickleball ?"
+    answer: "La kitchen (zone de non-volée) est la bande de 2,13 m de chaque côté du filet. On ne peut pas frapper la balle de volée (sans rebond) dans cette zone. On peut y entrer pour jouer une balle après rebond, mais il faut en ressortir avant de volleyer à nouveau."
+  - question: "Quelle est la différence entre pickleball et padel ?"
+    answer: "Le pickleball se joue sur un terrain ouvert (pas de murs) de 6,10 × 13,41 m avec une balle perforée et une raquette pleine. Le padel se joue sur un terrain fermé par des murs en verre (20 × 10 m) et la balle peut rebondir sur les murs. Le pickleball a une zone de non-volée (kitchen) qui n'existe pas au padel."
+  - question: "Pourquoi le score au pickleball a trois chiffres ?"
+    answer: "En double, le score s'annonce avec 3 chiffres : score du serveur – score du receveur – numéro du serveur (1 ou 2). Par exemple, '4-2-1' signifie : l'équipe au service a 4 points, l'équipe en réception a 2 points, et c'est le premier serveur qui sert. Ce système permet de savoir qui sert dans l'équipe."
 ---
 
-Vous découvrez le pickleball et les règles vous semblent floues ? **Ce guide vous explique tout en 5 minutes** : du service sous-main à la règle du double-bounce, en passant par la fameuse "kitchen" (zone de non-volée). Nous avons synthétisé les règles officielles pour que vous puissiez jouer votre premier match sans hésiter.
+Le pickleball est le sport de raquette qui se développe le plus rapidement en France — mais ses règles restent floues pour la plupart des débutants. Entre la "kitchen", la règle des deux rebonds et un système de score à trois chiffres, il y a de quoi hésiter.
 
-## En bref
+Ce guide vous explique **toutes les règles du pickleball** de façon simple et concrète. En 5 minutes, vous aurez les bases pour jouer votre premier match sans vous tromper.
 
-- Le pickleball se joue **en simple ou en double** sur un terrain de 6,10×13,41 mètres
-- Le service se fait **sous-main en diagonale**, derrière la ligne de fond
-- **Règle du double-bounce** : la balle doit rebondir une fois de chaque côté avant qu'on puisse volée
-- **La "kitchen"** (zone de non-volée) : interdiction de volée dans les 2,13 m devant le filet
-- Le comptage est spécifique : on annonce 3 chiffres (score serveur, score receveur, numéro du serveur)
-
----
-
-## Le terrain de pickleball : dimensions et zones
-
-Le terrain de pickleball mesure **6,10 mètres de large sur 13,41 mètres de long** (soit 20 × 44 pieds), environ **un tiers de la taille d'un terrain de tennis**. Il est divisé en plusieurs zones qui jouent un rôle crucial dans les règles.
-
-### Les éléments du terrain
-
-- **Le filet** : 6,10 mètres de large, hauteur **86 cm au centre** et 91 cm sur les côtés (légèrement plus bas qu'au tennis)
-- **La "kitchen" (zone de non-volée)** : rectangle de **2,13 m** devant le filet de chaque côté — la zone la plus importante à connaître
-- **Les zones de service** : deux carrés de chaque côté, délimités par la ligne centrale et les lignes de côté
-- **La ligne de fond** : d'où part le service
-
-**Notre conseil :** La "kitchen" est la zone qui trouble tous les débutants. Retenez simplement : **vous ne pouvez PAS frapper la balle de volée (sans rebond) si vous êtes dans cette zone**. C'est la règle #1 du pickleball.
+> **En bref :**
+> - Le pickleball se joue en **simple ou en double** sur un terrain de **6,10 m × 13,41 m** (taille d'un terrain de badminton)
+> - Le service se fait **à la cuillère**, en diagonale, **un seul essai**
+> - Seule l'équipe au service peut marquer des points (scoring traditionnel)
+> - La **zone de non-volée** ("kitchen") interdit les volées à moins de 2,13 m du filet
+> - La **règle des deux rebonds** oblige les deux équipes à laisser rebondir la balle une fois au début de chaque échange
+> - Un match se joue en **11 points** avec 2 points d'écart
 
 ---
 
-## Le service au pickleball : les règles essentielles
+## 🏟️ Le terrain de pickleball
 
-Le service au pickleball suit des règles strictes et très différentes du tennis ou du padel.
+Le terrain de pickleball mesure **13,41 m de long sur 6,10 m de large** — c'est exactement la taille d'un terrain de badminton en double. C'est nettement plus petit qu'un court de tennis (23,77 m × 10,97 m), ce qui rend le sport accessible : moins de distance à couvrir, plus de temps pour réagir.
+
+Le filet mesure **91,44 cm de hauteur** sur les côtés et **86,36 cm au centre** (légèrement plus bas qu'au tennis).
+
+### Les zones du terrain
+
+Le terrain est divisé en plusieurs zones distinctes :
+
+- **La zone de non-volée** (« kitchen ») : une bande de **2,13 m** de chaque côté du filet. C'est LA particularité du pickleball — on y revient en détail plus bas
+- **Les carrés de service** : derrière la kitchen, le terrain est séparé en deux carrés (droit et gauche) par une ligne centrale
+- **La ligne de fond** : la limite arrière du terrain
+
+> **Astuce :** beaucoup de clubs tracent des terrains de pickleball sur des courts de tennis existants — vous en trouverez peut-être déjà près de chez vous.
+
+![Raquette et balle de pickleball posées sur le filet](/img/pickleball/pickleball-raquette-balle-filet.webp)
+
+---
+
+## 🎾 Le service au pickleball
+
+Le service au pickleball est conçu pour être simple — ce n'est pas une arme, c'est une mise en jeu.
+
+![Joueur de pickleball en attente au filet](/img/pickleball/pickleball-joueur-attente-filet.webp)
 
 ### Comment servir
 
-1. **Position** : Le serveur se tient **derrière la ligne de fond**, dans la moitié droite du terrain (pour le premier service)
-2. **Geste** : Le service se fait **sous-main** — la raquette doit frapper la balle **en dessous de la taille**, avec un mouvement ascendant
-3. **Contact avec la balle** : Au moment de la frappe, la balle doit être **en dessous du nombril** (règle stricte depuis 2021)
-4. **Trajectoire** : La balle doit passer par-dessus le filet et atterrir dans la **zone de service diagonale opposée**, sans toucher la kitchen (zone de non-volée)
-5. **Les deux pieds au sol** : Au moins **un pied doit rester derrière la ligne de fond** pendant toute la frappe
+1. **Placez-vous** derrière la ligne de fond, dans le carré de service (droit pour commencer)
+2. **Frappez la balle à la cuillère** — le contact doit se faire **sous le nombril**, avec un mouvement de bas en haut
+3. **Visez le carré diagonal** — la balle doit passer au-dessus du filet et atterrir dans le carré de service opposé, **au-delà de la kitchen**
 
-### Les fautes de service
+### Les règles du service
 
-- La balle ne rebondit pas dans la zone de service diagonale
-- La balle touche le filet (contrairement au tennis, **il n'y a pas de "let"** au pickleball — c'est directement une faute)
-- La balle atterrit dans la kitchen ou sur la ligne de la kitchen
-- Le serveur frappe au-dessus de la taille ou du nombril
-- Le serveur passe la ligne de fond avant la frappe
+- **Un seul essai** (pas de deuxième service comme au tennis ou au padel)
+- **Les pieds** : les deux pieds doivent être derrière la ligne de fond au moment de la frappe
+- **Le "drop serve"** : variante autorisée depuis 2021 — vous laissez tomber la balle et la frappez après le rebond, sans contrainte de hauteur de frappe
+- **Let** : si la balle touche le filet et atterrit dans le bon carré, le service est **valable** (plus de let au pickleball depuis 2021)
+- **Alternance** : après chaque point marqué, le serveur change de côté (droite ↔ gauche)
 
-**Important :** Si vous faites une faute de service, **vous perdez le service** (mais pas le point, sauf en simple). C'est une différence clé avec le tennis.
-
-### Qui sert quand ?
-
-**En double :**
-- Chaque équipe a **deux serveurs** par tour de service (sauf au premier jeu où l'équipe qui commence n'en a qu'un)
-- Le serveur 1 sert tant qu'il marque des points, puis le serveur 2 prend le relais
-- Quand les deux ont perdu leur service, le service passe à l'équipe adverse
-
-**En simple :**
-- Le serveur sert du côté **droit** si son score est **pair**, du côté **gauche** si son score est **impair**
+> **Notre conseil :** le service au pickleball est volontairement limité en puissance. Ne cherchez pas l'ace — placez la balle profondément dans le carré adverse pour forcer un retour faible. C'est la stratégie la plus efficace à tous les niveaux.
 
 ---
 
-## La règle du double-bounce (double rebond)
+## 🔄 La règle des deux rebonds
 
-**C'est LA règle emblématique du pickleball.** Elle ralentit le jeu et le rend plus stratégique.
+C'est la règle la plus importante à comprendre au pickleball — et celle que les débutants oublient le plus souvent.
 
-### Comment ça marche
+### Comment ça fonctionne
 
-Après le service :
-1. **Le receveur doit laisser la balle rebondir avant de la frapper** (pas de volée sur le retour de service)
-2. **Le serveur doit AUSSI laisser rebondir le retour** avant de frapper
+1. Le serveur sert → la balle **doit rebondir** dans le camp adverse avant d'être renvoyée (1er rebond)
+2. L'équipe au service reçoit le retour → la balle **doit rebondir** dans leur camp avant d'être jouée (2e rebond)
+3. Après ces deux rebonds obligatoires, les joueurs peuvent volleyer (frapper sans rebond) ou jouer après rebond — **le jeu est libre**
 
-Après ces deux rebonds obligatoires, **le jeu devient libre** : vous pouvez volée ou laisser rebondir comme vous voulez (sauf dans la kitchen).
+### Pourquoi cette règle existe
 
-### Pourquoi cette règle ?
+Sans cette règle, l'équipe au service pourrait se ruer au filet immédiatement et dominer chaque point. La règle des deux rebonds **égalise les chances** en empêchant les deux équipes de volleyer sur les deux premiers coups.
 
-Elle empêche le serveur de monter immédiatement au filet et de volée le retour. Résultat : les échanges sont plus longs, plus tactiques, et accessibles aux débutants. C'est ce qui rend le pickleball **stratégique** plutôt que purement physique.
+![Joueur de pickleball en milieu urbain à San Diego](/img/pickleball/pickleball-joueur-urbain-sandiego.webp)
 
-**Exemple concret :**
-- Le serveur sert → la balle rebondit dans le camp adverse (1er rebond)
-- Le receveur la frappe → la balle rebondit dans le camp du serveur (2e rebond)
-- Le serveur la frappe → **maintenant, vous pouvez volée**
-
-**Notre conseil :** Les deux premiers coups doivent toujours rebondir. Mémorisez ça, et vous éviterez 90% des fautes débutants.
+> **Moyen mnémotechnique :** "Rebond – Rebond – Libre". Les deux premiers coups doivent rebondir. Après, c'est ouvert.
 
 ---
 
-## La "kitchen" : la zone de non-volée
+## 🍳 La zone de non-volée : la "kitchen"
 
-La **kitchen** (cuisine en anglais, terme officiel : *non-volley zone*) est la zone de **2,13 mètres** devant le filet, de chaque côté. C'est la zone la plus spécifique du pickleball.
+C'est la règle qui rend le pickleball unique parmi tous les sports de raquette. La **kitchen** (zone de non-volée) est la bande de **2,13 m** de chaque côté du filet.
 
-### Les règles de la kitchen
+### La règle
 
-| Situation | Autorisé ? |
-|---|---|
-| **Volée depuis la kitchen** | ❌ **Interdit** — vous perdez le point |
-| **Frapper la balle après rebond dans la kitchen** | ✅ **Autorisé** — vous pouvez entrer dans la kitchen si la balle a rebondi |
-| **Toucher la ligne de la kitchen pendant une volée** | ❌ **Interdit** — même si vous frappez en dehors, toucher la ligne = faute |
-| **Marcher dans la kitchen puis en sortir pour volée** | ✅ **Autorisé** — tant que vous êtes sorti avant de frapper |
-| **Votre élan vous porte dans la kitchen après une volée** | ❌ **Faute** — même si vous avez frappé à l'extérieur |
+Vous **ne pouvez pas frapper la balle de volée** (sans rebond) si vous êtes dans la kitchen ou si vous touchez la ligne de kitchen. Cela inclut tout votre élan : si votre élan vous entraîne dans la kitchen après une volée, c'est une faute — même si vous avez frappé la balle depuis l'extérieur.
 
-### Pourquoi la kitchen existe ?
+### Ce qui est autorisé
 
-Sans elle, le pickleball serait un jeu de smashs au filet (comme le tennis de table). La kitchen **force le jeu stratégique** : vous ne pouvez pas dominer juste en vous collant au filet et en volée tout.
+- **Entrer dans la kitchen** à tout moment — vous pouvez vous y tenir, marcher dedans, y rester
+- **Jouer une balle après rebond** dans la kitchen — si la balle rebondit dans la kitchen, vous pouvez y entrer et la frapper
+- **Volleyer depuis l'extérieur** — tant que vous êtes derrière la ligne et que votre élan ne vous fait pas entrer dans la zone
 
-**Astuce débutant :** Restez **à 30 cm de la ligne de la kitchen**, jamais dessus. C'est la position optimale pour pouvoir volée ET intervenir sur les balles courtes.
+### Ce qui est interdit
 
----
+- **Volleyer en étant dans la kitchen** — même si un seul pied touche la ligne
+- **Être entraîné dans la kitchen par votre élan** après une volée — même si vous frappez la balle depuis l'extérieur
+- **Laisser tomber un objet** (raquette, casquette, lunettes) dans la kitchen pendant une volée
 
-## Comment compter les points au pickleball
+### Pourquoi cette règle existe
 
-Le système de points au pickleball est **unique** — c'est ce qui surprend le plus les nouveaux joueurs.
+Sans la kitchen, les joueurs les plus grands et les plus puissants pourraient se coller au filet et smasher chaque balle. La kitchen force le jeu tactique : les dinks (petites balles courtes), les drops (balles molles qui retombent dans la kitchen adverse) et les échanges patients au filet. C'est ce qui rend le pickleball si stratégique — et si addictif.
 
-### Le comptage en double
+> **Notre conseil :** la kitchen est votre alliée, pas votre ennemie. Les meilleurs points se gagnent en forçant l'adversaire à frapper vers le haut depuis la kitchen, pour ensuite volleyer sa balle en hauteur. Apprivoisez la zone — c'est là que les matchs se gagnent.
 
-On annonce **3 chiffres** dans cet ordre :
-1. **Score de l'équipe au service**
-2. **Score de l'équipe adverse**
-3. **Numéro du serveur** (1 ou 2)
-
-**Exemple :** "4-2-1" signifie :
-- Notre équipe (au service) : 4 points
-- Équipe adverse : 2 points
-- Serveur numéro 1 de notre équipe
-
-**Important :** Seule l'équipe au service peut marquer des points. Si vous gagnez l'échange mais vous n'êtes pas au service, **vous récupérez le service mais ne marquez pas de point**.
-
-### Le comptage en simple
-
-On annonce **2 chiffres** :
-1. **Score du serveur**
-2. **Score du receveur**
-
-**Exemple :** "3-2" signifie que le serveur mène 3-2.
-
-### Gagner un match
-
-Un match se joue généralement en **11 points** (parfois 15 ou 21 en compétition), avec **2 points d'écart minimum**. Si le score atteint 10-10, le jeu continue jusqu'à ce qu'une équipe ait 2 points d'avance.
-
-**Particularité :** On ne peut marquer que quand on est au service. Cela rend les matchs plus longs et plus retournables que le tennis — un score de 10-3 n'est pas forcément définitif.
+![Terrain de pickleball vu du ciel avec ses zones colorées](/img/pickleball/pickleball-terrain-aerien-vert.webp)
 
 ---
 
-## Les fautes les plus courantes chez les débutants
+## 🔢 Le comptage des points
 
-### 1. Volée dans la kitchen
+Le score au pickleball est différent du tennis et du padel. C'est simple une fois qu'on a compris le principe, mais ça surprend les débutants.
 
-**La faute #1.** Vous êtes près du filet, la balle arrive haute, vous volleyez... mais votre pied touche la ligne de la kitchen. **Point perdu.** Même si seul votre orteil touche la ligne, même si c'est après la frappe.
+### Scoring traditionnel (le plus courant)
 
-**Comment l'éviter :** Restez à 30 cm de la ligne, jamais dessus. Si vous devez volleyer une balle proche, faites un pas en arrière d'abord.
+**Seule l'équipe au service peut marquer des points.** Si l'équipe en réception gagne l'échange, elle ne marque pas — elle récupère le service.
 
-### 2. Oublier le double-bounce
+- Un match se joue en **11 points** avec **2 points d'écart**
+- En compétition, certains matchs se jouent en **15 ou 21 points**
 
-Vous recevez le service et, par réflexe tennis, vous volleyez le retour. **Faute.** Ou pire : vous servez, votre adversaire renvoie, et vous volleyez immédiatement. **Faute aussi.**
+### Le score en double : trois chiffres
 
-**Comment l'éviter :** Comptez mentalement "1... 2..." sur les deux premiers échanges. Après le 2, vous pouvez volleyer.
+En double, le score s'annonce toujours avec **trois chiffres** :
 
-### 3. Servir trop haut
+**Score du serveur – Score du receveur – Numéro du serveur**
 
-Le service doit être sous-main (raquette en dessous de la taille) ET la balle doit être frappée en dessous du nombril. Un service à hauteur de poitrine, même avec la raquette basse, **c'est une faute**.
+Exemple : **4-2-1** signifie :
+- L'équipe au service a **4 points**
+- L'équipe en réception a **2 points**
+- C'est le **premier serveur** (joueur 1) qui sert
 
-**Comment l'éviter :** Laissez tomber la balle depuis votre main tendue devant vous, et frappez-la en montant. Ne la lancez pas en l'air comme au tennis.
+Quand le premier serveur perd le service, le deuxième serveur prend le relais. Quand le deuxième serveur perd aussi le service, c'est un **side-out** — l'autre équipe récupère le service.
 
-### 4. Toucher le filet
+**Exception au début du match :** la première équipe à servir n'a qu'un seul serveur (pas deux). Le score de départ est donc **0-0-2** (on commence directement par le "deuxième serveur" pour compenser l'avantage de servir en premier).
 
-Comme au tennis, **toucher le filet pendant que la balle est en jeu** = faute. Cela inclut votre raquette, votre corps, vos vêtements. Restez à distance pendant les échanges au filet.
+### Le score en simple
 
-### 5. Frapper la balle hors des limites
+En simple, le score n'a que **deux chiffres** (pas de numéro de serveur). Le serveur sert depuis la droite quand son score est pair, depuis la gauche quand son score est impair.
 
-Les lignes **font partie du terrain**. Une balle qui touche la ligne est **bonne**. Une balle qui atterrit 1 cm à côté de la ligne est **out**. En cas de doute en match amical, on rejoue généralement le point.
+### Le rally scoring (en développement)
 
-**Notre conseil :** Ne criez jamais "out !" si vous n'êtes pas sûr. Au pickleball, l'esprit sportif prime — en cas de doute, la balle est considérée bonne.
-
----
-
-## FAQ : vos questions sur les règles du pickleball
-
-### Peut-on jouer en simple au pickleball ?
-
-Oui, **le pickleball se joue en simple ou en double**. Les règles sont identiques, sauf pour le comptage (2 chiffres au lieu de 3) et le service (un seul serveur par équipe en simple).
-
-### Peut-on entrer dans la kitchen au pickleball ?
-
-Oui, **vous pouvez entrer dans la kitchen** — ce qui est interdit, c'est de **volleyer** (frapper la balle sans rebond) quand vous êtes dans la kitchen ou que vous touchez la ligne. Si la balle a rebondi, vous pouvez entrer librement.
-
-### Que se passe-t-il si la balle touche le filet pendant le jeu (pas au service) ?
-
-Le jeu continue normalement. **Il n'y a pas de "let"** au pickleball (sauf au service, où c'est directement une faute). Si la balle touche le filet pendant un échange et retombe dans le camp adverse, c'est valable.
-
-### Peut-on smacher au pickleball ?
-
-Oui, le smash est autorisé et fait partie du jeu. **Mais attention** : vous ne pouvez pas smacher si vous êtes dans la kitchen. Beaucoup de débutants smachent puis, emportés par leur élan, entrent dans la kitchen — c'est une faute.
-
-### Quelle est la différence entre pickleball et padel ?
-
-**Terrain :** Le pickleball est plus petit (13 m vs 20 m) et **sans murs**. Au padel, les murs font partie du jeu.  
-**Raquette :** Raquette pleine au pickleball (comme une planche perforée), raquette composite au padel.  
-**Règles :** Le pickleball a la règle du double-bounce et la kitchen, le padel a des murs et un service à la cuillère.
-
-Pour en savoir plus, consultez notre comparatif détaillé **[Pickleball vs Padel](#)**.
-
-### Comment savoir si on a le droit de volleyer ?
-
-Posez-vous 3 questions :
-1. **Est-ce un des deux premiers échanges ?** Si oui → **interdit** (règle du double-bounce)
-2. **Suis-je dans la kitchen ou sur la ligne ?** Si oui → **interdit**
-3. Sinon → **autorisé**
+Le **rally scoring** gagne du terrain dans les compétitions professionnelles : chaque échange rapporte un point, **quel que soit le serveur**. Les matchs vont à **21 points**. Ce format accélère les matchs et les rend plus télévisés — mais en loisir et en club, le scoring traditionnel reste la norme.
 
 ---
 
-## Pour aller plus loin
+## ❌ Les fautes au pickleball
 
-Maintenant que vous maîtrisez les règles, **il est temps de passer à la pratique**. Voici nos guides complémentaires pour bien démarrer au pickleball :
+Une faute met fin à l'échange. Voici les situations où l'on perd le point (ou le service) :
 
-- **[Comment jouer au pickleball : guide du débutant](#)** — apprenez les techniques de base (service, dink, volée)
-- **[Pickleball : c'est quoi ce sport ?](#)** — découvrez l'histoire et la philosophie du pickleball
-- **[Le Guide Complet du Pickleball](#)** — pilier : règles, techniques, équipement, histoire
-- **[Choisir sa raquette de pickleball : le guide complet](#)** — trouvez la raquette idéale pour débuter
+- **Balle dans le filet** — votre frappe touche le filet et ne passe pas
+- **Balle hors limites** — la balle atterrit en dehors des lignes du terrain
+- **Volée dans la kitchen** — vous frappez de volée en étant dans la zone de non-volée (ou votre élan vous y entraîne)
+- **Violation de la règle des deux rebonds** — vous volleyez avant que les deux rebonds obligatoires n'aient eu lieu
+- **Service dans la kitchen** — le service atterrit dans la zone de non-volée (la kitchen inclut sa ligne)
+- **Double rebond** — la balle rebondit deux fois au sol de votre côté
+- **Toucher le filet** — vous, votre raquette ou vos vêtements touchent le filet pendant le jeu
+- **La balle vous touche** — si la balle touche votre corps, c'est une faute
 
-**Prêt à jouer votre premier match ?** Consultez notre [carte des terrains de pickleball en France](#) pour trouver un club près de chez vous.
+> **La faute la plus courante chez les débutants :** volleyer alors que la règle des deux rebonds n'est pas encore terminée. Réflexe naturel quand on vient du tennis — mais au pickleball, les deux premiers coups DOIVENT rebondir.
 
 ---
 
-**Résumé :** Le pickleball se joue sur un petit terrain, avec un service sous-main et deux règles clés : le double-bounce (les deux premiers coups doivent rebondir) et la kitchen (pas de volée dans les 2,13 m devant le filet). Seule l'équipe au service marque des points. Le jeu monte à 11 points avec 2 d'écart.
+## L'équipement
 
-**Bon match !** 🏓
+Le pickleball nécessite un équipement minimal, ce qui contribue à son accessibilité.
+
+### La raquette (paddle)
+
+- **Pleine** (pas de cordage) — en composite, graphite ou bois pour les modèles d'entrée de gamme
+- **Poids** : 200 à 280 g (très légère comparée au padel ou au tennis)
+- **Pas de trous** (contrairement au padel)
+
+### La balle
+
+- En **plastique dur**, creuse et **perforée de trous** (26 trous pour l'outdoor, 40 pour l'indoor)
+- Plus légère et plus lente qu'une balle de tennis
+- Les balles outdoor sont plus dures et plus lourdes que les indoor
+
+### Le filet
+
+- Filet standard de **6,70 m de large**, tendu à **91,44 cm** sur les côtés et **86,36 cm** au centre
+
+![Raquette de pickleball Joola posée au sol](/img/pickleball/pickleball-raquette-joola-sol.webp)
+
+---
+
+## ⚖️ Pickleball vs tennis vs padel
+
+Vous venez d'un autre sport de raquette ? Voici ce qui change :
+
+| | Pickleball | Tennis | Padel |
+|---|---|---|---|
+| **Terrain** | 6,10 × 13,41 m, ouvert | 23,77 × 10,97 m, ouvert | 20 × 10 m, fermé (murs) |
+| **Joueurs** | Simple ou double | Simple ou double | Double uniquement |
+| **Service** | À la cuillère, 1 essai | Au-dessus de la tête, 2 essais | À la cuillère, 2 essais |
+| **Score** | 11 pts, seul le serveur marque | 15-30-40, tout le monde marque | 15-30-40, tout le monde marque |
+| **Spécificité** | Kitchen + règle des 2 rebonds | — | Murs font partie du jeu |
+| **Raquette** | Pleine, légère (~240 g) | Cordage (~300 g) | Pleine, percée (~360 g) |
+| **Difficulté d'entrée** | Très facile | Technique (service long à maîtriser) | Facile |
+
+La plus grande différence : au pickleball, la **kitchen** empêche le jeu de puissance pure et force la stratégie. C'est un sport de placement et de patience, pas de force brute.
+
+{% include "partials/newsletter-inline.njk" %}
+
+---
+
+## 🚫 5 erreurs de débutant à éviter
+
+### 1. Volleyer trop tôt
+
+La règle des deux rebonds est contre-intuitive pour les joueurs de tennis. **Les deux premiers coups de chaque échange doivent rebondir.** Prenez l'habitude de reculer après le service et d'attendre le rebond.
+
+### 2. Rester au fond du terrain
+
+Comme au padel, la position dominante au pickleball est **au filet** (juste derrière la kitchen). Le fond du terrain est défensif. L'objectif de chaque échange : trouver le bon moment pour avancer vers la kitchen avec votre partenaire.
+
+### 3. Frapper trop fort
+
+Le pickleball récompense le placement, pas la puissance. La balle est légère et le terrain petit — un smash puissant sort souvent du terrain. Privilégiez les dinks (petites balles courtes dans la kitchen adverse) et les drops (balles molles qui passent juste au-dessus du filet).
+
+### 4. Ignorer la kitchen
+
+La kitchen n'est pas une zone à éviter — c'est **le centre du jeu**. Les meilleurs échanges se jouent à la limite de la kitchen. Apprenez à vous y positionner, à y jouer les balles après rebond, et à forcer l'adversaire à y frapper vers le haut.
+
+### 5. Mal communiquer en double
+
+"Mienne !", "Tienne !", "Switch !" — la communication en double est aussi importante que la technique. Les deux partenaires doivent se déplacer ensemble, comme un bloc, et couvrir chacun leur moitié du terrain.
+
+> **Notre conseil :** lors de vos premières parties, concentrez-vous sur un objectif : **renvoyez la balle dans le terrain**. Pas de smash, pas de tentative spectaculaire. La régularité gagne les matchs au pickleball, surtout en double.
+
+---
+
+## Conclusion
+
+Les règles du pickleball sont plus simples qu'elles n'en ont l'air. La kitchen et la règle des deux rebonds sont les deux concepts clés — une fois compris, tout le reste coule naturellement. Le service simplifié et le petit terrain rendent le sport immédiatement accessible, tandis que la profondeur tactique de la kitchen garantit qu'on ne s'ennuie jamais.
+
+Il ne reste plus qu'à trouver un terrain et jouer.
+
+**Pour aller plus loin :**
+- [Le Guide Complet du Pickleball](/pickleball/guide-complet/) — tout savoir sur le pickleball, de A à Z
+- [Comment jouer au pickleball : guide du débutant](/pickleball/comment-jouer/) — les gestes et stratégies de base
+- [Pickleball vs Padel : quelles différences ?](/pickleball/pickleball-vs-padel/) — le comparatif complet pour choisir votre sport
