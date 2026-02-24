@@ -19,7 +19,7 @@
         <!-- Main hero article -->
         <a href="{{ heroMain.url }}" class="hero__main">
             {% if heroMain.data.image %}
-            <img src="{{ heroMain.data.image }}" alt="{{ heroMain.data.title }}" loading="eager">
+            <img src="{{ heroMain.data.image }}" alt="{{ heroMain.data.title }}" loading="eager" fetchpriority="high" width="1200" height="669">
             {% endif %}
             <div class="hero__content">
                 {% if heroMain.data.category %}{% tag heroMain.data.category %}{% endif %}

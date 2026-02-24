@@ -6,9 +6,9 @@
     <title>{% if title %}{{ title }} — {{ site.name }}{% else %}{{ site.name }} — {{ site.description }}{% endif %}</title>
     <meta name="description" content="{{ seoDescription or description or excerpt or site.description }}">
 
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9N344QH98"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Z9N344QH98');</script>
+    <!-- Preconnect for external origins -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
 
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
@@ -54,6 +54,14 @@
     </script>
 
     {% block head %}{% endblock %}
+
+    {# Preload LCP hero image on homepage #}
+    {% if page.url == "/" %}
+    {% set featuredForPreload = collections.featured[0] if collections.featured.length > 0 else collections.articles[0] %}
+    {% if featuredForPreload and featuredForPreload.data.image %}
+    <link rel="preload" as="image" href="{{ featuredForPreload.data.image }}" type="image/webp">
+    {% endif %}
+    {% endif %}
 </head>
 <body>
 
@@ -74,5 +82,9 @@
     </div>
 
     <script src="/js/main.js"></script>
+
+    <!-- Google Analytics 4 (deferred to not block rendering) -->
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-Z9N344QH98"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Z9N344QH98');</script>
 </body>
 </html>

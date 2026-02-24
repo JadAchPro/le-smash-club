@@ -1,9 +1,18 @@
 const htmlmin = require("html-minifier-terser");
+const CleanCSS = require("clean-css");
 
 module.exports = function(eleventyConfig) {
 
-  // Passthrough copy — static assets (from src)
-  eleventyConfig.addPassthroughCopy("src/css");
+  // CSS minification via template extension
+  eleventyConfig.addTemplateFormats("css");
+  eleventyConfig.addExtension("css", {
+    outputFileExtension: "css",
+    compile: async function(inputContent) {
+      return async () => {
+        return new CleanCSS({}).minify(inputContent).styles;
+      };
+    }
+  });
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("src/fonts");
