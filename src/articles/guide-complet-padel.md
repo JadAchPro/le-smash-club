@@ -74,7 +74,7 @@ Le padel emprunte beaucoup au tennis, avec quelques particularités qui changent
 
 ### Le terrain
 
-Le terrain mesure **20 mètres de long sur 10 mètres de large**, divisé en deux par un filet central. Il est entièrement fermé : des **murs en verre** (3 à 4 mètres de haut) sur les fonds et une partie des côtés, et des **grillages métalliques** en complément. Pour tout savoir sur les mesures exactes, consultez notre article sur les [dimensions d'un terrain de padel](/padel/dimensions-terrain/).
+Le terrain mesure **20 mètres de long sur 10 mètres de large**, divisé en deux par un filet central. Il est entièrement fermé : des **murs en verre** (3 à 4 mètres de haut) sur les fonds et une partie des côtés, et des **grillages métalliques** en complément. Pour tout savoir sur les mesures exactes, consultez notre article sur les [dimensions d'un terrain de padel](/padel/dimensions-terrain-padel/).
 
 ### Le scoring
 
@@ -92,7 +92,7 @@ C'est LA particularité du padel. Après **un rebond au sol**, la balle peut tou
 
 Le padel se joue exclusivement en **double** (2 contre 2). Le terrain est dimensionné pour 4 joueurs — jouer en simple est possible mais peu pratiqué et non officiel en compétition.
 
-> Pour les règles détaillées (fautes, let, cas particuliers, golden point), consultez notre [guide complet des règles du padel](/padel/regles/).
+> Pour les règles détaillées (fautes, let, cas particuliers, golden point), consultez notre [guide complet des règles du padel](/padel/regles-padel/).
 
 ---
 
@@ -199,7 +199,7 @@ Le padel se gagne **au filet**. La configuration idéale :
 4. **Se décaler de son partenaire.** Si votre partenaire monte au filet, montez. S'il recule, reculez. Toujours en ligne.
 5. **Négliger le lob.** Le lob est l'arme secrète au padel. Il force l'adversaire à reculer et vous permet de prendre le filet.
 
-> Pour un guide technique détaillé, consultez notre article [Comment jouer au padel : techniques de base](/padel/comment-jouer/).
+> Pour un guide technique détaillé, consultez notre article [Comment jouer au padel : techniques de base](/padel/comment-jouer-padel/).
 
 ---
 
@@ -365,9 +365,9 @@ Les réponses aux questions les plus fréquentes sont détaillées dans la secti
 
 Ce guide vous a donné une vue complète du padel. Pour approfondir chaque sujet, voici nos articles détaillés :
 
-- [Règles du padel : le guide complet pour débutants](/padel/regles/) — Toutes les règles détaillées
-- [Comment jouer au padel : techniques de base](/padel/comment-jouer/) — Guide pratique des techniques et de la tactique
-- [Dimensions d'un terrain de padel : normes et mesures](/padel/dimensions-terrain/) — Tout sur le terrain officiel
-- [Combien coûte un terrain de padel ? Prix et budget](/padel/prix-terrain/) — Pour ceux qui veulent investir
+- [Règles du padel : le guide complet pour débutants](/padel/regles-padel/) — Toutes les règles détaillées
+- [Comment jouer au padel : techniques de base](/padel/comment-jouer-padel/) — Guide pratique des techniques et de la tactique
+- [Dimensions d'un terrain de padel : normes et mesures](/padel/dimensions-terrain-padel/) — Tout sur le terrain officiel
+- [Combien coûte un terrain de padel ? Prix et budget](/padel/prix-terrain-padel/) — Pour ceux qui veulent investir
 - [Pickleball vs Padel : quelles différences ?](/pickleball/pickleball-vs-padel/) — Le comparatif entre les deux sports tendance
 - [Quiz : quel est votre niveau de padel ?](/padel/quiz-niveau/) — Estimez votre classement FFT en 3 minutes

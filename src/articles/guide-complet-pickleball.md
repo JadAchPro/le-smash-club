@@ -126,7 +126,7 @@ La kitchen est la bande de 2,13 m devant le filet. **Règle absolue : on ne peut
 
 C'est cette règle qui donne au pickleball sa profondeur tactique. Elle empêche les joueurs de camper au filet et de smasher toutes les balles. Le jeu devient un duel de placement, de patience et de finesse.
 
-> Pour les règles détaillées (fautes, changement de côté, cas particuliers), consultez notre [guide complet des règles du pickleball](/pickleball/regles/).
+> Pour les règles détaillées (fautes, changement de côté, cas particuliers), consultez notre [guide complet des règles du pickleball](/pickleball/regles-pickleball/).
 
 ---
 
@@ -234,7 +234,7 @@ Le pickleball se gagne **au filet** — mais pas dans la kitchen. La position id
 4. **Négliger le dink.** C'est le coup le moins spectaculaire mais le plus important. Les débutants veulent smasher — les joueurs expérimentés dinkent et attendent l'erreur.
 5. **Entrer dans la kitchen pour volleyer.** La zone de non-volée est stricte : pas de volée dedans, pas d'élan qui vous y entraîne. Cette faute est la plus fréquente chez les débutants.
 
-> Pour un guide technique approfondi, consultez notre article [Comment jouer au pickleball : guide du débutant](/pickleball/comment-jouer/).
+> Pour un guide technique approfondi, consultez notre article [Comment jouer au pickleball : guide du débutant](/pickleball/comment-jouer-pickleball/).
 
 ---
 
@@ -403,8 +403,8 @@ Les réponses aux questions les plus fréquentes sont détaillées dans la secti
 
 Ce guide vous a donné une vue complète du pickleball. Pour approfondir chaque sujet, voici nos articles détaillés :
 
-- [Règles du pickleball : tout comprendre en 5 minutes](/pickleball/regles/) — Toutes les règles détaillées
-- [Comment jouer au pickleball : guide du débutant](/pickleball/comment-jouer/) — Guide pratique des techniques
+- [Règles du pickleball : tout comprendre en 5 minutes](/pickleball/regles-pickleball/) — Toutes les règles détaillées
+- [Comment jouer au pickleball : guide du débutant](/pickleball/comment-jouer-pickleball/) — Guide pratique des techniques
 - [Pickleball : c'est quoi ce sport ?](/pickleball/decouvrir/) — L'article découverte pour les curieux
 - [Pickleball vs Padel : quelles différences ?](/pickleball/pickleball-vs-padel/) — Le comparatif entre les deux sports tendance
 - [Quiz : quel est votre niveau de pickleball ?](/pickleball/quiz-niveau/) — Estimez votre rating DUPR en 3 minutes

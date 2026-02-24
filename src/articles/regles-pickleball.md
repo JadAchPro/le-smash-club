@@ -262,6 +262,6 @@ Les règles du pickleball sont plus simples qu'elles n'en ont l'air. La kitchen 
 Il ne reste plus qu'à trouver un terrain et jouer.
 
 **Pour aller plus loin :**
-- [Le Guide Complet du Pickleball](/pickleball/guide-complet/) — tout savoir sur le pickleball, de A à Z
-- [Comment jouer au pickleball : guide du débutant](/pickleball/comment-jouer/) — les gestes et stratégies de base
+- [Le Guide Complet du Pickleball](/pickleball/guide-complet-pickleball/) — tout savoir sur le pickleball, de A à Z
+- [Comment jouer au pickleball : guide du débutant](/pickleball/comment-jouer-pickleball/) — les gestes et stratégies de base
 - [Pickleball vs Padel : quelles différences ?](/pickleball/pickleball-vs-padel/) — le comparatif complet pour choisir votre sport

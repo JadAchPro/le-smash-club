@@ -28,7 +28,7 @@ faq:
 
 Vous connaissez les règles du pickleball — le service à la cuillère, la kitchen, la règle des deux rebonds. Mais quand vous entrez sur le terrain pour la première fois, une question reste : **comment jouer concrètement ?** Quels coups utiliser ? Où se placer ? Comment exploiter cette fameuse kitchen ?
 
-Ce guide est la suite logique des [règles du pickleball](/pickleball/regles/). Ici, on passe de la théorie à la pratique : les coups de base, le positionnement, la tactique en double et les erreurs qui plombent les débutants. Tout ce qu'il faut pour être opérationnel dès votre premier match.
+Ce guide est la suite logique des [règles du pickleball](/pickleball/regles-pickleball/). Ici, on passe de la théorie à la pratique : les coups de base, le positionnement, la tactique en double et les erreurs qui plombent les débutants. Tout ce qu'il faut pour être opérationnel dès votre premier match.
 
 > **En bref :**
 > - Maîtrisez **4 coups** pour commencer : dink, drive, volée et drop shot
@@ -273,7 +273,7 @@ Le pickleball se joue avec 4 coups, une bonne position à la kitchen et de la co
 Retenez l'essentiel : **kitchen, dink, patience, bloc**. Prenez la kitchen avec votre partenaire, dinkez avec toucher, soyez patient dans les échanges et déplacez-vous en bloc. Tout le reste viendra avec la pratique.
 
 **Pour aller plus loin :**
-- [Le Guide Complet du Pickleball](/pickleball/guide-complet/) — tout savoir sur le pickleball, de A à Z
-- [Règles du pickleball : tout comprendre en 5 minutes](/pickleball/regles/) — si vous voulez revoir les bases avant de jouer
+- [Le Guide Complet du Pickleball](/pickleball/guide-complet-pickleball/) — tout savoir sur le pickleball, de A à Z
+- [Règles du pickleball : tout comprendre en 5 minutes](/pickleball/regles-pickleball/) — si vous voulez revoir les bases avant de jouer
 - [Pickleball : c'est quoi ce sport ?](/pickleball/decouvrir/) — les origines et l'explosion du pickleball en France
 - [Pickleball vs Padel : quelles différences ?](/pickleball/pickleball-vs-padel/) — le comparatif complet pour choisir votre sport

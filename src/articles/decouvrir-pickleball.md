@@ -144,7 +144,7 @@ Le pickleball n'est ni une mode ni un gadget — c'est un vrai sport, reconnu pa
 Il ne reste plus qu'à essayer.
 
 **Pour aller plus loin :**
-- [Le Guide Complet du Pickleball](/pickleball/guide-complet/) — tout savoir sur le pickleball, de A à Z
-- [Règles du pickleball : tout comprendre en 5 minutes](/pickleball/regles/) — les règles détaillées, de la kitchen au scoring
-- [Comment jouer au pickleball : guide du débutant](/pickleball/comment-jouer/) — les gestes et stratégies de base
+- [Le Guide Complet du Pickleball](/pickleball/guide-complet-pickleball/) — tout savoir sur le pickleball, de A à Z
+- [Règles du pickleball : tout comprendre en 5 minutes](/pickleball/regles-pickleball/) — les règles détaillées, de la kitchen au scoring
+- [Comment jouer au pickleball : guide du débutant](/pickleball/comment-jouer-pickleball/) — les gestes et stratégies de base
 - [Pickleball vs Padel : quelles différences ?](/pickleball/pickleball-vs-padel/) — le comparatif complet pour choisir votre sport

@@ -167,8 +167,8 @@ Le pickleball et le padel ne sont pas des concurrents — ce sont deux réponses
 Le meilleur choix, c'est celui qui vous fait sortir de chez vous et entrer sur le terrain.
 
 **Pour aller plus loin :**
-- [Le Guide Complet du Padel](/padel/guide-complet/) — tout savoir sur le padel, de A à Z
+- [Le Guide Complet du Padel](/padel/guide-complet-padel/) — tout savoir sur le padel, de A à Z
 - [Le Guide Complet du Pickleball](/pickleball/guide-complet-pickleball/) — tout savoir sur le pickleball, de A à Z
-- [Règles du pickleball : tout comprendre en 5 minutes](/pickleball/regles/) — le guide complet des règles
-- [Règles du padel : le guide complet pour débutants](/padel/regles/) — les règles du padel de A à Z
+- [Règles du pickleball : tout comprendre en 5 minutes](/pickleball/regles-pickleball/) — le guide complet des règles
+- [Règles du padel : le guide complet pour débutants](/padel/regles-padel/) — les règles du padel de A à Z
 - [Pickleball : c'est quoi ce sport ?](/pickleball/decouvrir/) — tout savoir sur le pickleball

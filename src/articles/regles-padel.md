@@ -253,6 +253,6 @@ Les règles du padel sont simples à comprendre, mais le jeu est riche en subtil
 Maintenant que vous maîtrisez les règles, il ne reste plus qu'une chose à faire : réserver un terrain et jouer.
 
 **Pour aller plus loin :**
-- [Comment jouer au padel : les techniques de base](/padel/comment-jouer/) — les gestes fondamentaux pour bien démarrer
-- [Dimensions d'un terrain de padel](/padel/dimensions-terrain/) — les normes et mesures officielles détaillées
-- [Le Guide Complet du Padel](/padel/guide-complet/) — tout savoir sur le padel, de A à Z
+- [Comment jouer au padel : les techniques de base](/padel/comment-jouer-padel/) — les gestes fondamentaux pour bien démarrer
+- [Dimensions d'un terrain de padel](/padel/dimensions-terrain-padel/) — les normes et mesures officielles détaillées
+- [Le Guide Complet du Padel](/padel/guide-complet-padel/) — tout savoir sur le padel, de A à Z

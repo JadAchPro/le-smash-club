@@ -28,7 +28,7 @@ faq:
 
 Vous connaissez les règles du padel — le service à la cuillère, le comptage des points, les murs en verre. Mais quand vous entrez sur le terrain pour la première fois, une question reste : **comment jouer concrètement ?** Quel coup utiliser ? Où se placer ? Comment se coordonner avec son partenaire ?
 
-Ce guide est la suite logique des [règles du padel](/padel/regles/). Ici, on passe de la théorie à la pratique : les coups de base, le positionnement, la tactique en double et les erreurs qui plombent les débutants. Tout ce qu'il faut pour être opérationnel dès votre premier match.
+Ce guide est la suite logique des [règles du padel](/padel/regles-padel/). Ici, on passe de la théorie à la pratique : les coups de base, le positionnement, la tactique en double et les erreurs qui plombent les débutants. Tout ce qu'il faut pour être opérationnel dès votre premier match.
 
 > **En bref :**
 > - Maîtrisez **3 coups** pour commencer : coup droit, revers et volée
@@ -260,6 +260,6 @@ Le padel se joue avec 3 coups, une bonne position et de la communication. Pas be
 Retenez l'essentiel : **filet, bloc, murs, placement**. Montez au filet avec votre partenaire, déplacez-vous en bloc, utilisez les murs au lieu de les craindre, et privilégiez le placement sur la puissance. Tout le reste viendra avec la pratique.
 
 **Pour aller plus loin :**
-- [Règles du padel : le guide complet](/padel/regles/) — si vous voulez revoir les bases avant de jouer
-- [Dimensions d'un terrain de padel](/padel/dimensions-terrain/) — les normes et mesures officielles
-- [Le Guide Complet du Padel](/padel/guide-complet/) — tout savoir sur le padel, de A à Z
+- [Règles du padel : le guide complet](/padel/regles-padel/) — si vous voulez revoir les bases avant de jouer
+- [Dimensions d'un terrain de padel](/padel/dimensions-terrain-padel/) — les normes et mesures officielles
+- [Le Guide Complet du Padel](/padel/guide-complet-padel/) — tout savoir sur le padel, de A à Z
