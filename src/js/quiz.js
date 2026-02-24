@@ -1,5 +1,5 @@
 /* ============================================
-   CourtSide — Quiz Niveau Padel
+   Le Smash Club — Quiz Niveau Padel
    Vanilla JS, no dependencies
    ============================================ */
 

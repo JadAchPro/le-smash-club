@@ -1,5 +1,5 @@
 /* ============================================
-   CourtSide — Main JS
+   Le Smash Club — Main JS
    Vanilla JS, no dependencies
    ============================================ */
 

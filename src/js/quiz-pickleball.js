@@ -1,5 +1,5 @@
 /* ============================================
-   CourtSide — Quiz Niveau Pickleball
+   Le Smash Club — Quiz Niveau Pickleball
    Vanilla JS, no dependencies
    ============================================ */
 

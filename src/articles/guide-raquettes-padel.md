@@ -209,7 +209,7 @@ Design moderne, lifestyle. Technologies Adipower bien pensées. Bon positionneme
 
 Dunlop, Wilson, Siux proposent également de bonnes raquettes, notamment en entrée de gamme. Correctes, mais sans la notoriété des 5 précédentes.
 
-D'autres guides détaillés par marque arrivent prochainement sur CourtSide.
+D'autres guides détaillés par marque arrivent prochainement sur Le Smash Club.
 
 ---
 

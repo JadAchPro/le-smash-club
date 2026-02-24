@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://courtside.fr/sitemap.xml
+Sitemap: https://le-smash-club.com/sitemap.xml

@@ -1,5 +1,5 @@
 /* ============================================
-   CourtSide — Design System v1.0.0
+   Le Smash Club — Design System v1.0.0
    Sportif & Énergique
    ============================================ */
 
@@ -1620,6 +1620,18 @@ input, textarea { font-family: inherit; }
 
 .footer__links a:hover { color: var(--green); }
 
+.footer__legal {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 8px;
+}
+.footer__legal a {
+    font-size: 0.75rem;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.footer__legal a:hover { opacity: 1; text-decoration: underline; }
 .footer__copy { font-size: 0.8rem; }
 
 /* ============================================

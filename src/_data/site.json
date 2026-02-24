@@ -1,9 +1,9 @@
 {
-  "name": "CourtSide",
-  "description": "Le magazine en ligne dédié au pickleball et au padel. Actualités, conseils, équipement et plus.",
-  "url": "https://courtside.fr",
+  "name": "Le Smash Club",
+  "description": "Le magazine en ligne dédié au padel et au pickleball. Guides, règles, techniques, actualités et quiz pour débuter et progresser.",
+  "url": "https://le-smash-club.com",
   "language": "fr",
-  "author": "CourtSide",
+  "author": "Le Smash Club",
   "categories": [
     { "name": "Padel", "slug": "padel", "emoji": "🎾", "color": "#F1C40F" },
     { "name": "Pickleball", "slug": "pickleball", "emoji": "🎯", "color": "#2ECC71" },

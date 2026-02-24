@@ -6,6 +6,10 @@
     <title>{% if title %}{{ title }} — {{ site.name }}{% else %}{{ site.name }} — {{ site.description }}{% endif %}</title>
     <meta name="description" content="{{ seoDescription or description or excerpt or site.description }}">
 
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9N344QH98"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Z9N344QH98');</script>
+
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
