@@ -1,5 +1,30 @@
 # Changelog — Le Smash Club
 
+## 2026-02-24 15h30 — Audit terminologique et corrections factuelles
+
+### Quiz Padel (`src/js/quiz.js`)
+- Suppression du terme « drive » (terme tennis) — remplacé par « coup droit » (3 occurrences)
+  - Question 2 : "coup droit (drive)" → "coup droit"
+  - Résultat Niveau 1 : "drive, revers" → "coup droit, revers"
+  - Résultat Niveau 3 : "Drive et revers fiables" → "Coup droit et revers fiables"
+
+### Articles Pickleball
+- `regles-pickleball.md` : nombre de trous des balles inversé — corrigé de "26 outdoor, 40 indoor" à "40 outdoor, 26 indoor" (cohérent avec `guide-complet-pickleball.md`)
+- `decouvrir-pickleball.md` : "300 clubs en 2023" → "100 clubs en 2023" (cohérent avec "150 clubs en 2026" dans `guide-complet-pickleball.md`)
+
+### Résultat de l'audit
+- Quiz pickleball : aucune erreur terminologique (drive, dink, kitchen sont des termes pickleball corrects)
+- 5 articles padel : vocabulaire propre (bandeja, vibora, chiquita, coup droit — aucun terme tennis/pickleball)
+- 5 articles pickleball : vocabulaire propre (dink, kitchen, erne, drive — aucun terme padel)
+
+| Fichier | Action |
+|---------|--------|
+| `src/js/quiz.js` | 3× "drive" → "coup droit" |
+| `src/articles/regles-pickleball.md` | Trous balles : 26/40 → 40/26 |
+| `src/articles/decouvrir-pickleball.md` | 300 clubs → 100 clubs (2023) |
+
+---
+
 ## 2026-02-24 14h15 — Correction de tous les liens internes cassés
 
 - 8 patterns d'URL corrigés (URLs courtes Ghost → URLs complètes Eleventy)

@@ -197,7 +197,7 @@ Le pickleball nécessite un équipement minimal, ce qui contribue à son accessi
 
 ### La balle
 
-- En **plastique dur**, creuse et **perforée de trous** (26 trous pour l'outdoor, 40 pour l'indoor)
+- En **plastique dur**, creuse et **perforée de trous** (40 trous pour l'outdoor, 26 pour l'indoor)
 - Plus légère et plus lente qu'une balle de tennis
 - Les balles outdoor sont plus dures et plus lourdes que les indoor
 

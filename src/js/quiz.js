@@ -16,7 +16,7 @@
             ]
         },
         {
-            text: "Comment d\u00e9crivez-vous votre coup droit (drive) ?",
+            text: "Comment d\u00e9crivez-vous votre coup droit ?",
             answers: [
                 { text: "Je le rate souvent, j\u2019ai du mal \u00e0 contr\u00f4ler la balle", value: 1 },
                 { text: "Je le r\u00e9ussis en situation stable, mais pas sous pression", value: 2 },
@@ -96,7 +96,7 @@
             title: "Initiation \u2014 Niveau 1",
             description: "Vous d\u00e9butez l\u2019aventure padel ! C\u2019est la phase la plus excitante : chaque session apporte de nouvelles sensations. L\u2019essentiel \u00e0 ce stade, c\u2019est de prendre du plaisir et de comprendre les bases du jeu.",
             strengths: ["Motivation et envie d\u2019apprendre", "Capacit\u00e9 \u00e0 progresser rapidement", "Chaque session est une d\u00e9couverte"],
-            improve: ["Ma\u00eetrise des coups de base (drive, revers)", "Lecture des rebonds sur les vitres", "Placement sur le terrain"]
+            improve: ["Ma\u00eetrise des coups de base (coup droit, revers)", "Lecture des rebonds sur les vitres", "Placement sur le terrain"]
         },
         {
             minScore: 12, maxScore: 14,
@@ -111,7 +111,7 @@
             code: "P500", levelNum: 3, badge: "\u26a1",
             title: "Interm\u00e9diaire d\u00e9butant \u2014 Niveau 3",
             description: "Vous jouez avec r\u00e9gularit\u00e9 et vous commencez \u00e0 construire des points. Vos rebonds de vitre sont ma\u00eetris\u00e9s en situation stable. Les tournois amateurs sont \u00e0 votre port\u00e9e.",
-            strengths: ["R\u00e9gularit\u00e9 en situation de jeu simple", "Compr\u00e9hension du jeu en double", "Drive et revers fiables"],
+            strengths: ["R\u00e9gularit\u00e9 en situation de jeu simple", "Compr\u00e9hension du jeu en double", "Coup droit et revers fiables"],
             improve: ["Jeu sous pression et en d\u00e9fense profonde", "Bandeja et smash en match", "Lecture du jeu adverse"]
         },
         {

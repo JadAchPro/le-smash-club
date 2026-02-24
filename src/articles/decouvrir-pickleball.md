@@ -59,7 +59,7 @@ La France n'est pas en reste. Le pickleball y débarque timidement vers 2015, po
 Quelques repères :
 
 - **2019** — La FFT (Fédération Française de Tennis) reconnaît officiellement le pickleball
-- **2023** — Plus de 300 clubs proposent du pickleball en France
+- **2023** — Plus de 100 clubs proposent du pickleball en France
 - **2025** — Le nombre de licenciés pickleball FFT dépasse les 15 000
 - **2028** — Le pickleball est pressenti pour une démonstration aux Jeux Olympiques de Los Angeles
 
