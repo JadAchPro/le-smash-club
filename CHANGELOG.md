@@ -1,5 +1,14 @@
 # Changelog — Le Smash Club
 
+## 2026-02-24 14h15 — Correction de tous les liens internes cassés
+
+- 8 patterns d'URL corrigés (URLs courtes Ghost → URLs complètes Eleventy)
+- Exemples : `/padel/regles/` → `/padel/regles-padel/`, `/pickleball/guide-complet/` → `/pickleball/guide-complet-pickleball/`
+- 10 articles + 3 pages templates (actualites, ressources, histoire-padel) modifiés
+- Vérification : zéro lien cassé restant sur l'ensemble du site
+
+---
+
 ## 2026-02-24 13h45 — Audit SEO et corrections P0/P1/P2
 
 ### P0 (critiques)
