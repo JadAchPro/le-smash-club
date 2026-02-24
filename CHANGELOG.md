@@ -1,5 +1,39 @@
 # Changelog — Le Smash Club
 
+## 2026-02-24 16h00 — Mise en production et indexation Google
+
+- Domaine `le-smash-club.com` basculé de Hetzner (Ghost) vers Vercel (Eleventy)
+  - A record `@` → `216.198.79.1` (Vercel)
+  - CNAME `www` → `cname.vercel-dns.com`
+  - Redirection `le-smash-club.com` → `www.le-smash-club.com`
+- Google Search Console : propriété validée (DNS TXT via Cloudflare)
+- Sitemap soumis : `https://www.le-smash-club.com/sitemap.xml` (21 URLs)
+- Indexation demandée pour les 3 pages prioritaires (homepage, guide padel, guide pickleball)
+- GA4 `G-Z9N344QH98` vérifié — flux de données pointe vers `le-smash-club.com`
+
+---
+
+## 2026-02-24 15h45 — Optimisation Core Web Vitals
+
+- 28 images webp redimensionnées (max 1200px) et recompressées q75 — **6 Mo économisés**
+- LCP mobile : **11.0s → 5.0s** (-55%)
+- Ajout `fetchpriority="high"` + `<link rel="preload">` sur l'image hero LCP
+- GA4 déféré en bas du `<body>` (ne bloque plus le rendu)
+- `dns-prefetch` + `preconnect` vers `googletagmanager.com`
+- CSS minifié via `clean-css` dans le build Eleventy (`.eleventy.js`)
+- Score PageSpeed : Perf 73 / Accessibilité 94 / Bonnes pratiques 100 / SEO 100
+
+---
+
+## 2026-02-24 15h35 — Nettoyage Ghost sur les VPS
+
+- **VPS Hetzner2** (65.108.208.198) : containers Docker SmashClub (Ghost + MySQL) stoppés et supprimés avec volumes
+- **VPS Hetzner2** : dossier `/home/ghost/smashclub/` supprimé (91 Mo)
+- **VPS Hetzner1** (46.225.107.125) : dossier `/home/ghost/courtside/` et `/home/ghost/` supprimés
+- newlakesport non touché (Ghost + MySQL actifs sur VPS 2, port 2369)
+
+---
+
 ## 2026-02-24 15h30 — Audit terminologique et corrections factuelles
 
 ### Quiz Padel (`src/js/quiz.js`)
