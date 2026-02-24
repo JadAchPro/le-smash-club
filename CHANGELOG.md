@@ -1,5 +1,17 @@
 # Changelog — Le Smash Club
 
+## 2026-02-24 16h50 — Pipeline veille actus pour Milano
+
+- Script Python `fetch-news.py` créé sur VPS (`/home/openclaw/.openclaw/cron/`)
+  - Fetch RSS Google News padel + pickleball (10 items par sport, dédup, tri par date)
+  - Écrit `ACTUS.md` + `actus.json` dans le board OpenClaw (`board/projects/smashclub/`)
+- Crontab VPS : exécution quotidienne à 06h55 UTC (5 min avant le rebuild Vercel)
+- Cron OpenClaw : job Milano `6176ae31` à 07h30 Europe/Paris — lecture des actus et veille éditoriale
+  - Milano identifie 2-3 sujets intéressants et met à jour `IDEES.md`
+- Endpoint `/news.json` ajouté au site Eleventy (JSON statique des actus, mis à jour au build)
+
+---
+
 ## 2026-02-24 16h00 — Mise en production et indexation Google
 
 - Domaine `le-smash-club.com` basculé de Hetzner (Ghost) vers Vercel (Eleventy)
