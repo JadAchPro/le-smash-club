@@ -11,10 +11,11 @@ layout: layouts/base.njk
     "description": "{{ seoDescription or excerpt or subtitle or '' }}",
     "datePublished": "{{ date | dateISO }}",
     "dateModified": "{{ lastmod | dateISO if lastmod else date | dateISO }}",
-    {% if image %}"image": "{{ image }}",{% endif %}
+    {% if image %}"image": "{{ site.url }}{{ image }}",{% endif %}
     "author": {
-        "@type": "Organization",
-        "name": "{{ site.name }}"
+        "@type": "Person",
+        "name": "{{ site.author }}",
+        "url": "{{ site.url }}/a-propos/"
     },
     "publisher": {
         "@type": "Organization",
@@ -143,6 +144,21 @@ layout: layouts/base.njk
         <div class="article-body">
             {{ content | safe }}
         </div>
+
+        {% if faq %}
+        <!-- FAQ Section (visible HTML — matches JSON-LD FAQPage) -->
+        <section class="article-faq">
+            <h2>Questions fréquentes</h2>
+            {% for item in faq %}
+            <details class="faq-item"{% if loop.first %} open{% endif %}>
+                <summary class="faq-item__question">{{ item.question }}</summary>
+                <div class="faq-item__answer">
+                    <p>{{ item.answer }}</p>
+                </div>
+            </details>
+            {% endfor %}
+        </section>
+        {% endif %}
 
         <!-- Share buttons -->
         <div class="share-bar">

@@ -238,3 +238,7 @@ Avant de signer, posez ces questions à chaque constructeur :
 ---
 
 Vous avez maintenant toutes les cartes en main pour chiffrer votre projet. Si vous êtes encore en phase de réflexion, on vous recommande de commencer par comprendre [les dimensions exactes d'un terrain de padel](/padel/dimensions-terrain/) — c'est la base technique de tout projet de construction. Et si vous êtes joueur avant d'être investisseur, jetez un œil à notre [Guide Complet du Padel](/padel/guide-complet/) pour tout savoir sur le sport.
+
+**Pour aller plus loin :**
+- [Les règles du padel](/padel/regles/) — comprendre le jeu avant de construire
+- [Comment jouer au padel](/padel/comment-jouer/) — techniques et conseils pour débuter
